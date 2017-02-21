@@ -203,6 +203,19 @@ input:focus {
 .flexslider-img{
 
 }
+
+.mySlides{
+
+}
+.sliderSlides{
+    margin-bottom: -20em;
+}
+
+.home-slides{
+
+}
+
+
 /*//
 
 //
@@ -286,11 +299,18 @@ width: 100%;
 }
 
 .wod-container {
-    background: #222222;
-    width: 100%;
-     min-width: 288px;
-    z-index: 20;
-    margin: 0 12px 0 12px;
+  background: #222222;
+/* width: 100%; */
+/* min-width: 288px; */
+/* z-index: 20; */
+/* margin: 0 12px 0 12px; */
+margin: 0 5px 0 5px;
+
+}
+.threes-container{
+  width: 80%;
+margin: auto;
+height: 100%;
 }
 
 .wox-box-container {

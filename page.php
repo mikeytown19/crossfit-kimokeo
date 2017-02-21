@@ -4,7 +4,7 @@
 		<!-- section -->
 		<section>
 
-			<div class="flexslider">
+			<!-- <div class="flexslider">
 			<ul class="slides">
 				<li>
 				<img class="flexslider-img"src="<?php echo get_template_directory_uri(); ?>/img/background/home-background1.png" alt="Logo">
@@ -14,7 +14,7 @@
 				</li>
 
 			</ul>
-		</div>
+		</div> -->
 
 
 

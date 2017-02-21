@@ -22,20 +22,22 @@ function updateUI(){
 }
 
 function mobileDate(data){
-  console.log(data)
+
   var clickedDate = data.id;
   currentDay = data.id;
   updateUI();
 }
 (function($, root, undefined) {
     $(function() {
+
+
+
+
+
         'use strict';
         // DOM ready, take it away
-        $('.flexslider').flexslider({
-            animation: "fade",
-            slideshow: true,
-        });
 
+        carousel();
           updateUI();
         })
 
@@ -59,6 +61,25 @@ function openNav() {
 /* Set the width of the side navigation to 0 */
 function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
+}
+
+
+var myIndex = 0;
+
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    console.log(x);
+
+    for (i = 0; i < x.length; i++) {
+
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 20000); // Change image every 2 seconds
 }
 
 // function mobileDate(){
