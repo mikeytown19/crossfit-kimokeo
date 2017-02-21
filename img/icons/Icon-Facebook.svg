@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="24px" viewBox="0 0 25 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon Facebook</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="kimokeo-home-2" transform="translate(-933.000000, -3770.000000)">
+            <g id="Group-30" transform="translate(144.000000, 3764.000000)">
+                <g id="Group-26" transform="translate(783.843046, 0.000000)">
+                    <g id="Icon-Facebook">
+                        <rect id="bounds" x="0" y="0" width="35.9927929" height="36"></rect>
+                        <path d="M28.6697593,6 L7.32303366,6 C6.5911802,6 5.99879882,6.594 5.99879882,7.326 L5.99879882,28.677 C5.99879882,29.4075 6.5911802,30.0015 7.32303366,30.0015 L18.8152325,30.0015 L18.8152325,20.706 L15.6883586,20.706 L15.6883586,17.085 L18.8152325,17.085 L18.8152325,14.4135 C18.8152325,11.313 20.7078535,9.627 23.4732998,9.627 C24.7975346,9.627 25.9358067,9.7245 26.2672403,9.768 L26.2672403,13.008 L24.3506241,13.0095 C22.8449256,13.0095 22.5554836,13.7235 22.5554836,14.772 L22.5554836,17.085 L26.1412656,17.085 L25.6733593,20.706 L22.5554836,20.706 L22.5554836,30.0015 L28.6697593,30.0015 C29.400113,30.0015 29.9939941,29.4075 29.9939941,28.677 L29.9939941,7.326 C29.9939941,6.594 29.400113,6 28.6697593,6" id="Facebook" fill="#919191"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

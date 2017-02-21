@@ -1,0 +1,1072 @@
+@font-face {
+    font-family: customG;
+    src: url('./fonts/GothamSSm-Black.otf'),
+
+}
+
+
+/*------------------------------------*\
+    MAIN
+\*------------------------------------*/
+
+
+/*
+.
+.
+.
+.
+.
+Flex
+.
+.
+.
+.*/
+
+.flex {
+    display: flex;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.flex1 {
+    flex: 1
+}
+
+.flex2 {
+    flex: 2;
+}
+
+.flex-direction-columnn {
+    flex-direction: column;
+}
+
+.flex-direction-row {
+    flex-direction: row;
+}
+
+.jc-center {
+    justify-content: center;
+}
+
+.jc-space-around {
+    justify-content: space-around;
+}
+
+.ai-center {
+    align-items: center;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.margin-auto {
+    margin: auto;
+}
+
+.caps {
+    text-transform: uppercase;
+}
+
+.fw100 {
+    font-weight: 100;
+}
+
+.fw200 {
+    font-weight: 200;
+}
+
+.fw300 {
+    font-weight: 300;
+}
+
+.fw400 {
+    font-weight: 400;
+}
+
+.fw500 {
+    font-weight: 500;
+}
+
+.fw600 {
+    font-weight: 600;
+}
+
+.fw700 {
+    font-weight: 700;
+}
+
+.fw800 {
+    font-weight: 800;
+}
+
+.fw900 {
+    font-weight: 900;
+}
+
+
+/* global box-sizing */
+
+*, *:after, *:before {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+
+/* html element 62.5% font-size for REM use */
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font: 300 11px/1.4 customG, Helvetica, Arial, sans-serif;
+    color: #444;
+    background: #181818;
+}
+
+
+/* clear */
+
+.clear:before, .clear:after {
+    content: ' ';
+    display: table;
+}
+
+.clear:after {
+    clear: both;
+}
+
+.clear {
+    *zoom: 1;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: bottom;
+}
+
+input:focus {
+    outline: 0;
+    border: 1px solid #04A4CC;
+}
+
+
+/*------------------------------------*\
+    STRUCTURE
+\*------------------------------------*/
+
+
+/* wrapper */
+
+
+/*.wrapper {
+	max-width:1280px;
+	width:95%;
+	margin:0 auto;
+	position:relative;
+}*/
+
+
+/* header */
+
+.header {}
+
+
+/* logo */
+
+.logo {}
+
+.logo-img {}
+
+
+/* nav */
+
+.nav {}
+
+
+/* sidebar */
+
+.sidebar {}
+
+
+/* footer */
+
+.footer {}
+
+.flexslider-img{
+
+}
+/*//
+
+//
+
+//
+
+nav bar
+
+//
+
+//*/
+
+.zindex1{
+z-index: 100;
+}
+.zindex1 #pgc-7-0-0{
+  z-index: 100;
+}
+.nav-logo {}
+
+.nav-logo img {
+    height: 80px;
+}
+.nav-container{
+  position: fixed;
+z-index: 200;
+width: 100%;
+  background: rgba(0, 0, 0, 0.87);
+}
+.nav-bar {
+  padding: 15px 20px 15px 20px;
+    /* position: fixed; */
+    width: 100%;
+    z-index: 200;
+    background: rgba(0, 0, 0, 0.87);
+    /* width: 1400px; */
+    margin: auto;
+    max-width: 1400px;
+}
+
+.nav-menu {
+    justify-content: space-around;
+    padding-top: 34px;
+}
+
+.sub-nav {
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 400;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.sub-nav:hover {
+    color: #C0212A;
+}
+
+.a-sign-up a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    background-color: #C0212A;
+    padding: 10px 20px 10px 20px;
+    border-radius: 2px;
+    transition: .3s;
+}
+
+.a-sign-up a:hover {
+    color: #C0212A;
+    border: solid #C0212A thin;
+    background-color: inherit;
+    padding: 10px 20px 10px 20px;
+}
+
+.homebackground-1 {
+    background: url('./img/background/home-background1.png') no-repeat;
+    height: 65vh;
+    width: 100%;
+    background-size: cover;
+}
+
+.wod-container {
+    background: #222222;
+    width: 100%;
+     min-width: 288px;
+    z-index: 20;
+    margin: 0 12px 0 12px;
+}
+
+.wox-box-container {
+    justify-content: center;
+    margin: auto;
+    z-index: 20;
+}
+
+
+.wod-inside-containter{
+  padding: 20px 20px;
+}
+
+
+.soswodify_wod_header{
+  color: #FFFFFF;
+font-weight: 400;
+letter-spacing: 1px;
+text-transform: uppercase;
+font-size: 15px;
+    margin-top: 12px;
+}
+
+.wod-day{
+  color: #FFFFFF;
+font-weight: 400;
+letter-spacing: 1px;
+text-transform: uppercase;
+font-size: 15px;
+}
+
+.soswodify_section_title{
+  color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: .5px;
+    width: 80%;
+    margin-top: 8px;
+
+}
+.soswodify_component_show_wrapper{
+
+}
+.soswodify_component_name{
+  color: #AAAAAA;
+    font-size: 13px;
+    font-weight: 200;
+    letter-spacing: .5px;
+    width: 80%;
+    margin-top: 4px;
+}
+.soswodify_component_wrapper{
+  color: #AAAAAA;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: .5px;
+  /* text-align: center; */
+  /* margin: auto; */
+  line-height: 25px;
+  margin-top: 16px;
+}
+.sos_wodify_section_warm-up{
+  display: none;
+}
+
+.scheduale {
+    height: 100%;
+    padding: 20px 20px;
+}
+.scheduale h2 {
+  padding: 0;
+  margin: 0;
+  color: #FFFFFF;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-bottom: 12px;
+
+}
+.scheduale h4 {
+  color: #FFFFFF;
+font-size: 13px;
+font-weight: 200;
+letter-spacing: .5px;
+width: 80%;
+margin-top: 4px;
+}
+.scheduale h4 em {
+  color: #AAAAAA;
+font-size: 13px;
+font-weight: 200;
+letter-spacing: .5px;
+width: 80%;
+margin-top: 4px;
+}
+
+.scheduale h4 img {
+      margin: 0px 65px 0px 0px;
+}
+
+.kids-key-image{
+  margin-bottom: auto !important;
+}
+.wpcf7-form-control-wrap input {
+    height: 40px;
+    border-radius: 3px;
+    border: none;
+    margin: 7px 0px;
+    width: 93%;
+}
+
+.contact {
+  height: 100%;
+padding: 20px 0px 0px 18px;
+}
+.contact h2{
+  padding: 0;
+  margin: 0;
+  color: #FFFFFF;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-bottom: 12px;
+
+}
+
+
+.Gender select{
+  width: 93%;
+  height: 40px;
+  border: none;
+}
+ .wpcf7-form .wpcf7-submit{
+   width: 93%;
+   height: 40px;
+   border-radius: 3px;
+   border: none;
+   background-color: #C0212A;
+   color: white;
+   font-size: 12px;
+   font-weight: 700;
+   letter-spacing: 1px;
+   text-transform: uppercase;
+ }
+
+ ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+   color: #AAAAAA;
+   padding-left: 15px;
+ }
+ ::-moz-placeholder { /* Firefox 19+ */
+   color: pink;
+ }
+ :-ms-input-placeholder { /* IE 10+ */
+   color: pink;
+ }
+ :-moz-placeholder { /* Firefox 18- */
+   color: pink;
+ }
+
+
+.crossfit-intro {
+    width: 60%;
+    margin: auto;
+}
+
+.crossfit-intro .p1 {
+    font-size: 15px;
+    color: #D8D8D8;
+    line-height: 30px;
+    text-align: -webkit-center;
+}
+
+.crossfit-intro h5 {
+    font-size: 13px;
+    color: #D8D8D8;
+    line-height: 30px;
+    text-align: -webkit-center;
+    font-weight: 100;
+}
+
+.crossfit-intro h4 {
+    color: #D8D8D8;
+    font-size: 24px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding-top: 50px;
+}
+
+.crossift-info-icon-container {
+    width: 70%;
+    margin: auto;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.crossfit-info-icon {}
+
+.crossfit-info-icon h3 {
+    text-align: -webkit-center;
+    font-size: 14px;
+    font-weight: 100;
+    padding-top: 13px;
+    color: #D8D8D8;
+    width: 80%;
+    margin: auto;
+}
+
+.icon-arrows img {
+    width: 80px;
+}
+
+.icon-couple img {}
+
+.icon-charts img {
+    width: 78px;
+}
+
+.pricing-container {
+    background: #222222;
+    width: 80%;
+    margin: auto;
+    max-width: 1200px;
+}
+
+.pricing-info h3 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #AAAAAA;
+    letter-spacing: 1px;
+}
+
+.pricing-info h2 {
+    color: #FFFFFF;
+    font-size: 50px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.pricing-info h6 {
+    font-size: 11px;
+    margin: 0;
+    padding-bottom: 30px;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+.drop-in-info {
+    width: 87%;
+    margin: auto;
+}
+
+.drop-in-info strong {
+    font-size: 14px;
+    font-weight: 400;
+    color: #AAAAAA;
+    letter-spacing: 1px;
+}
+
+.drop-in-info span {
+    font-size: 14px;
+    font-weight: 400;
+    color: #AAAAAA;
+    letter-spacing: 1px;
+}
+
+.drop-in-info em {
+    font-size: 12px;
+    font-weight: 200;
+    color: #AAAAAA;
+    letter-spacing: 1px;
+    font-style: normal;
+}
+
+.programs {}
+
+.programs h2 {
+    color: #FFFFFF;
+    font-size: 24px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.programs h4 {
+    font-size: 14px;
+    color: #AAAAAA;
+    line-height: 30px;
+    font-weight: 100;
+}
+
+.programs-container {
+    width: 80%;
+    margin: auto;
+    max-width: 1100px;
+}
+
+.programs-container h3{
+	color: #FFFFFF;
+font-weight: 400;
+letter-spacing: 1px;
+text-transform: uppercase;
+font-size: 16px;
+}
+
+.programs-container h5{
+	color: #AAAAAA;
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: .5px;
+	width: 80%;
+
+}
+
+
+
+.visit-us{
+	width: 80%;
+	margin: auto;
+	max-width: 1100px;
+}
+
+.map{
+
+}
+.come-visit-title h1{
+	color: #FFFFFF;
+	font-size: 24px;
+	letter-spacing: 1px;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+.map h3{
+	color: #FFFFFF;
+	font-weight: 400;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+.map h4{
+	color: #FFFFFF;
+font-weight: 400;
+letter-spacing: 1px;
+text-transform: uppercase;
+font-size: 15px;
+}
+.map h5{
+	color: #AAAAAA;
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: .5px;
+	width: 80%;
+	margin: 0;
+}
+
+
+.coach-title{
+  width: 70%;
+  margin: auto;
+  padding: 75px 0 0 0;
+}
+
+.coach-title h2{
+  color: #FFFFFF;
+  font-size: 24px;
+  letter-spacing: 1px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.coach-title h4{
+  font-size: 16px;
+  color: #AAAAAA;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+.coaches{
+  width: 90%;
+  margin: auto;
+  padding: 75px 0 75px 0;
+}
+
+.coaches h2{
+  color: #FFFFFF;
+font-weight: 400;
+letter-spacing: 1px;
+text-transform: uppercase;
+font-size: 16px;
+}
+
+.coaches p {
+  margin: auto;
+  width: 270px;
+}
+.coaches span{
+  color: #AAAAAA;
+font-size: 12px;
+font-weight: 400;
+letter-spacing: .5px;
+text-align: center;
+
+margin: auto;
+
+    line-height: 25px;
+}
+/*//
+//
+//
+//
+footer
+//
+//
+//
+//*/
+
+.footer-wrapper{
+height: 240px;
+background-color: #222222;
+
+
+}
+
+.footer-content{
+padding-top: 70px;
+}
+.copyright{
+  font-size: 14px;
+  color: #AAAAAA;
+  line-height: 29px;
+  margin-bottom: 15px;
+
+}
+.red-bold{
+  color: #CF3233;
+}
+.crosssfit-journal{
+
+}
+.social-icons{
+
+}
+
+.icon-facebook{
+      margin: 0 20px 0 0px;
+}
+
+.hidden{
+  display: none;
+}
+
+
+.monday{
+
+}
+.tuesday{
+
+}
+.week{
+
+}
+
+
+/*------------------------------------*\
+    PAGES
+\*------------------------------------*/
+
+
+/*------------------------------------*\
+    IMAGES
+\*------------------------------------*/
+
+
+/*------------------------------------*\
+	TYPOGRAPHY
+\*------------------------------------*/
+
+@font-face {
+    font-family: 'Font-Name';
+    src: url('fonts/font-name.eot');
+    src: url('fonts/font-name.eot?#iefix') format('embedded-opentype'), url('fonts/font-name.woff') format('woff'), url('fonts/font-name.ttf') format('truetype'), url('fonts/font-name.svg#font-name') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/*------------------------------------*\
+    RESPONSIVE
+\*------------------------------------*/
+/* Remove margins and padding from the list, and add a black background color */
+
+/* Change background color of links on hover */
+
+
+/* Hide the list item that contains the link that should open and close the topnav on small screens */
+
+
+/* When the screen is less than 680 pixels wide, hide all list items, except for the first one ("Home"). Show the list item that contains the link to open and close the topnav (li.icon) */
+@media screen and (max-width:680px) {
+
+
+
+/*
+  .mobile-icon{
+    position: fixed;
+  z-index: 200;
+  right: 14px;
+  top: 2px;
+  }
+  .hamburger-icon{
+    font-size: 35px;
+  color: white;
+  text-decoration: none;
+  }*/
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens */
+
+@media only screen and (max-width:320px) {}
+
+@media only screen and (max-width:480px) {}
+
+@media only screen and (max-width:768px) {
+  .hamburger-icon{
+    font-size: 35px;
+  color: white;
+  text-decoration: none;
+  position: fixed;
+  z-index: 1000;
+  right: 19px;
+  top: 9px;
+  cursor: pointer;
+  }
+
+
+  /* The side navigation menu */
+  .sidenav {
+      height: 100%; /* 100% Full-height */
+      width: 0; /* 0 width - change this with JavaScript */
+      position: fixed; /* Stay in place */
+      z-index: 10000; /* Stay on top */
+      top: 0;
+      right: 0;
+      background-color: #CF3233; /* Black*/
+      overflow-x: hidden; /* Disable horizontal scroll */
+      padding-top: 60px; /* Place content 60px from the top */
+      transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  }
+
+  /* The navigation menu links */
+  .sidenav a {
+      padding: 8px 8px 8px 32px;
+      text-decoration: none;
+      font-size: 25px;
+      color: white;
+      display: block;
+      transition: 0.3s
+  }
+
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover, .offcanvas a:focus{
+      color: #f1f1f1;
+  }
+
+  /* Position and style the close button (top right corner) */
+  .sidenav .closebtn {
+      position: absolute;
+      top: 0;
+      right: 25px;
+      font-size: 36px;
+      margin-left: 50px;
+  }
+
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  #main {
+      transition: margin-left .5s;
+      padding: 20px;
+  }
+
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+      .sidenav {padding-top: 15px;}
+      .sidenav a {font-size: 18px;}
+  }
+
+  .nav-bar{
+    display: none;
+  }
+  .mobile-nav-bar{
+
+  }
+  .mobile-google-map{
+    width: 100%;
+    height: 200px;
+  }
+
+  .mobile-calender-container{
+
+     background-color: #181818;
+  }
+  .mobile-weekday-circle{
+    width: 50px;
+    height: 50px;
+    background-color: #CF3233;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+        z-index: 2000;
+  }
+
+}
+
+@media only screen and (min-width:1024px) {}
+
+@media only screen and (min-width:1140px) {}
+
+@media only screen and (min-width:1280px) {}
+
+@media only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:144dpi) {}
+
+
+/*------------------------------------*\
+    MISC
+\*------------------------------------*/
+
+::selection {
+    background: #04A4CC;
+    color: #FFF;
+    text-shadow: none;
+}
+
+::-webkit-selection {
+    background: #04A4CC;
+    color: #FFF;
+    text-shadow: none;
+}
+
+::-moz-selection {
+    background: #04A4CC;
+    color: #FFF;
+    text-shadow: none;
+}
+
+
+/*------------------------------------*\
+    WORDPRESS CORE
+\*------------------------------------*/
+
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter, div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wp-caption {
+    background: #FFF;
+    border: 1px solid #F0F0F0;
+    max-width: 96%;
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+
+.wp-caption .wp-caption-text, .gallery-caption {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+
+.sticky {}
+
+.bypostauthor {}
+
+
+/*------------------------------------*\
+    PRINT
+\*------------------------------------*/
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+    a, a:visited {
+        text-decoration: underline;
+    }
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+    .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after {
+        content: "";
+    }
+    pre, blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+    thead {
+        display: table-header-group;
+    }
+    tr, img {
+        page-break-inside: avoid;
+    }
+    img {
+        max-width: 100% !important;
+    }
+    @page {
+        margin: 0.5cm;
+    }
+    p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+    }
+    h2, h3 {
+        page-break-after: avoid;
+    }
+}
