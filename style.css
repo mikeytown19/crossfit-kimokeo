@@ -202,7 +202,7 @@ input:focus {
 .flexslider-img {}
 
 .mySlides {
-  transition: .5s;
+    transition: .5s;
 }
 
 .sliderSlides {
@@ -356,7 +356,7 @@ nav bar
 }
 
 .wod-inside-containter {
-    padding: 20px 20px;
+    padding: 20px 20px 0px 20px;
 }
 
 .soswodify_wod_header {
@@ -406,7 +406,9 @@ nav bar
     line-height: 25px;
     margin-top: 16px;
 }
-
+.sos_wodify_section_weightlifting{
+  display: none;
+}
 .sos_wodify_section_warm-up {
     display: none;
 }
@@ -602,6 +604,10 @@ nav bar
     padding-bottom: 30px;
     font-weight: 100;
     letter-spacing: 1px;
+}
+
+.drop-in-price {
+    color: white !important;
 }
 
 .drop-in-info {
@@ -814,7 +820,102 @@ footer
     display: none;
 }
 
+.wodify-signIn a {
+    display: flex;
+    margin-left: 9px;
+    color: #CF3233;
+    text-decoration: none;
+    font-size: 13px;
+    display: flex;
+}
 
+.wodify-signIn img {
+    margin: 12px !important;
+}
+
+.class-schedule {
+    width: 80%;
+    margin: auto;
+}
+
+
+.class-title {
+    width: 80%;
+    margin: auto;
+    padding: 75px 0 0 0;
+}
+
+.class-title h2 {
+    color: #FFFFFF;
+    font-size: 24px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.class-title h4 {
+    font-size: 16px;
+    color: #AAAAAA;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+.wpsm-thead-default th {
+    background-color: inherit !important;
+    color: #D8D8D8;
+    border-color: inherit !important;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.hover-col1 tr td:first-child {
+    background-color: inherit !important;
+    color: #D8D8D8;
+    border-color: inherit !important;
+    text-transform: uppercase;
+    min-width: 50px;
+    text-align: center;
+}
+
+.wpsm-comptable td {
+    background: #222222 !important;
+    border: solid #181818 1px !important;
+    border-width: 0px 1px 1px 0px;
+    color: white;
+    min-width: 100px;
+    vertical-align: middle;
+    position: relative;
+text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.wpsm-comptable th, .wpsm-comptable td {
+    padding: 9px !important;
+    box-sizing: border-box;
+}
+.daycare{
+
+  background: url(./img/icons/daycare.png) no-repeat;
+  height: 20px;
+  width: 19px;
+  position: absolute;
+  margin: auto;
+  right: 2px;
+  top: 4px;
+  /* background-color: white; */
+  background-size: 16px;
+}
+
+.childcare{
+  width: 80%;
+  margin: auto;
+}
+.childcare div h4 img {
+    margin: 0;
+}
+.childcare div h4{
+      letter-spacing: 0.6px;
+}
 /*------------------------------------*\
     PAGES
 \*------------------------------------*/
@@ -872,11 +973,77 @@ footer
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens */
 
+@media only screen and (max-width:894px) {
+
+  .class-times{
+    display: none;
+  }
+}
 @media only screen and (max-width:320px) {}
 
-@media only screen and (max-width:480px) {}
+@media only screen and (max-width:615px) {
+  .pricing-container {
+      background: #222222;
+       width: 100%;
+      
+  }
+  .crossfit-intro {
+    width: 85%;
+    margin: auto;
+}
+  .wpcf7-form-control-wrap input {
 
-@media only screen and (max-width:768px) {
+      width: 78%;
+  }
+  .Gender select {
+    width: 78%;
+    height: 40px;
+    border: none;
+}
+.wpcf7-form .wpcf7-submit {
+    width: 78%;
+    height: 40px;
+    border-radius: 3px;
+    border: none;
+    background-color: #C0212A;
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+}
+
+@media only screen and (max-width:1000px) {
+  .sliderSlides {
+       margin-bottom: 0px;
+  }
+  .contact h2 {
+    width: 158px;
+    margin: auto;
+    text-align: center;
+}
+
+  .threes-container {
+       width: 100%;
+      /* margin: auto; */
+      height: 100%;
+      max-width: 1200px;
+      background: #222222;
+  }
+
+  .wod-container {
+    background: #222222;
+    /* width: 100%; */
+    /* min-width: 288px; */
+    /* z-index: 20; */
+    /* margin: 0 12px 0 12px; */
+    /* margin: 0 5px 0 5px; */
+    max-width: 450px;
+    min-height: 420px;
+    margin: auto;
+}
     .mobile-calender-container {
         display: flex;
     }
@@ -958,16 +1125,16 @@ footer
         background-color: #181818;
     }
     .mobile-weekday-circle {
-        width: 50px;
-        height: 50px;
-        background-color: #CF3233;
-        color: white;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border-radius: 50%;
-        cursor: pointer;
-        z-index: 2000;
+      width: 4vh;
+      height: 4vh;
+      background-color: #CF3233;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+      cursor: pointer;
+      z-index: 2000;
     }
 }
 
