@@ -1,7 +1,6 @@
 @font-face {
     font-family: customG;
     src: url('./fonts/GothamSSm-Black.otf'),
-
 }
 
 
@@ -200,19 +199,46 @@ input:focus {
 
 .footer {}
 
-.flexslider-img{
+.flexslider-img {}
 
+.mySlides {
+  transition: .5s;
 }
 
-.mySlides{
-
-}
-.sliderSlides{
+.sliderSlides {
     margin-bottom: -20em;
 }
 
-.home-slides{
+.home-slides {}
 
+.mySlides .textwidget div {
+    height: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mySlides .textwidget {
+    height: 81%;
+    /* background-color: coral; */
+    width: 79%;
+    margin: auto;
+    display: flex;
+}
+
+.mySlides .textwidget div h3 {
+    padding: 0;
+    margin: 0;
+    font-size: 26px;
+}
+
+.mySlides .textwidget div h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 47px;
+    color: #C0212A;
 }
 
 
@@ -228,25 +254,29 @@ nav bar
 
 //*/
 
-.zindex1{
-z-index: 100;
+.zindex1 {
+    z-index: 100;
 }
-.zindex1 #pgc-7-0-0{
-  z-index: 100;
+
+.zindex1 #pgc-7-0-0 {
+    z-index: 100;
 }
+
 .nav-logo {}
 
 .nav-logo img {
     height: 80px;
 }
-.nav-container{
-  position: fixed;
-z-index: 200;
-width: 100%;
-  background: rgba(0, 0, 0, 0.87);
+
+.nav-container {
+    position: fixed;
+    z-index: 200;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.87);
 }
+
 .nav-bar {
-  padding: 15px 20px 15px 20px;
+    padding: 15px 20px 15px 20px;
     /* position: fixed; */
     width: 100%;
     z-index: 200;
@@ -272,6 +302,9 @@ width: 100%;
 
 .sub-nav:hover {
     color: #C0212A;
+    /* text-decoration: underline; */
+    border-bottom: solid #C0212A .5px;
+    height: 24px;
 }
 
 .a-sign-up a {
@@ -299,18 +332,21 @@ width: 100%;
 }
 
 .wod-container {
-  background: #222222;
-/* width: 100%; */
-/* min-width: 288px; */
-/* z-index: 20; */
-/* margin: 0 12px 0 12px; */
-margin: 0 5px 0 5px;
-
+    background: #222222;
+    /* width: 100%; */
+    /* min-width: 288px; */
+    /* z-index: 20; */
+    /* margin: 0 12px 0 12px; */
+    margin: 0 5px 0 5px;
+    max-width: 330px;
+    min-height: 420px;
 }
-.threes-container{
-  width: 80%;
-margin: auto;
-height: 100%;
+
+.threes-container {
+    width: 80%;
+    margin: auto;
+    height: 100%;
+    max-width: 1200px;
 }
 
 .wox-box-container {
@@ -319,102 +355,104 @@ height: 100%;
     z-index: 20;
 }
 
-
-.wod-inside-containter{
-  padding: 20px 20px;
+.wod-inside-containter {
+    padding: 20px 20px;
 }
 
-
-.soswodify_wod_header{
-  color: #FFFFFF;
-font-weight: 400;
-letter-spacing: 1px;
-text-transform: uppercase;
-font-size: 15px;
+.soswodify_wod_header {
+    color: #FFFFFF;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 15px;
     margin-top: 12px;
 }
 
-.wod-day{
-  color: #FFFFFF;
-font-weight: 400;
-letter-spacing: 1px;
-text-transform: uppercase;
-font-size: 15px;
+.wod-day {
+    color: #FFFFFF;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 15px;
 }
 
-.soswodify_section_title{
-  color: #FFFFFF;
+.soswodify_section_title {
+    color: #FFFFFF;
     font-size: 14px;
     font-weight: 400;
     letter-spacing: .5px;
     width: 80%;
     margin-top: 8px;
-
 }
-.soswodify_component_show_wrapper{
 
-}
-.soswodify_component_name{
-  color: #AAAAAA;
+.soswodify_component_show_wrapper {}
+
+.soswodify_component_name {
+    color: #AAAAAA;
     font-size: 13px;
     font-weight: 200;
     letter-spacing: .5px;
     width: 80%;
     margin-top: 4px;
 }
-.soswodify_component_wrapper{
-  color: #AAAAAA;
-  font-size: 12px;
-  font-weight: 400;
-  letter-spacing: .5px;
-  /* text-align: center; */
-  /* margin: auto; */
-  line-height: 25px;
-  margin-top: 16px;
+
+.soswodify_component_wrapper {
+    color: #AAAAAA;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: .5px;
+    /* text-align: center; */
+    /* margin: auto; */
+    line-height: 25px;
+    margin-top: 16px;
 }
-.sos_wodify_section_warm-up{
-  display: none;
+
+.sos_wodify_section_warm-up {
+    display: none;
 }
 
 .scheduale {
     height: 100%;
     padding: 20px 20px;
 }
+
 .scheduale h2 {
-  padding: 0;
-  margin: 0;
-  color: #FFFFFF;
+    padding: 0;
+    margin: 0;
+    color: #FFFFFF;
     font-weight: 400;
     letter-spacing: 1px;
     text-transform: uppercase;
     font-size: 14px;
     margin-bottom: 12px;
+}
 
-}
 .scheduale h4 {
-  color: #FFFFFF;
-font-size: 13px;
-font-weight: 200;
-letter-spacing: .5px;
-width: 80%;
-margin-top: 4px;
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: 200;
+    letter-spacing: .5px;
+    width: 80%;
+    margin-top: 4px;
 }
+
 .scheduale h4 em {
-  color: #AAAAAA;
-font-size: 13px;
-font-weight: 200;
-letter-spacing: .5px;
-width: 80%;
-margin-top: 4px;
+    color: #AAAAAA;
+    font-size: 13px;
+    font-weight: 200;
+    letter-spacing: .5px;
+    width: 80%;
+    margin-top: 4px;
 }
 
 .scheduale h4 img {
-      margin: 0px 65px 0px 0px;
+    margin: 0px 65px 0px 0px;
 }
 
-.kids-key-image{
-  margin-bottom: auto !important;
+.kids-key-image {
+    margin-bottom: auto !important;
 }
+
 .wpcf7-form-control-wrap input {
     height: 40px;
     border-radius: 3px;
@@ -424,54 +462,60 @@ margin-top: 4px;
 }
 
 .contact {
-  height: 100%;
-padding: 20px 0px 0px 18px;
+    height: 100%;
+    padding: 20px 0px 0px 18px;
 }
-.contact h2{
-  padding: 0;
-  margin: 0;
-  color: #FFFFFF;
+
+.contact h2 {
+    padding: 0;
+    margin: 0;
+    color: #FFFFFF;
     font-weight: 400;
     letter-spacing: 1px;
     text-transform: uppercase;
     font-size: 14px;
     margin-bottom: 12px;
-
 }
 
-
-.Gender select{
-  width: 93%;
-  height: 40px;
-  border: none;
+.Gender select {
+    width: 93%;
+    height: 40px;
+    border: none;
 }
- .wpcf7-form .wpcf7-submit{
-   width: 93%;
-   height: 40px;
-   border-radius: 3px;
-   border: none;
-   background-color: #C0212A;
-   color: white;
-   font-size: 12px;
-   font-weight: 700;
-   letter-spacing: 1px;
-   text-transform: uppercase;
- }
 
- ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-   color: #AAAAAA;
-   padding-left: 15px;
- }
- ::-moz-placeholder { /* Firefox 19+ */
-   color: pink;
- }
- :-ms-input-placeholder { /* IE 10+ */
-   color: pink;
- }
- :-moz-placeholder { /* Firefox 18- */
-   color: pink;
- }
+.wpcf7-form .wpcf7-submit {
+    width: 93%;
+    height: 40px;
+    border-radius: 3px;
+    border: none;
+    background-color: #C0212A;
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
 
+ ::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: #AAAAAA;
+    padding-left: 15px;
+}
+
+ ::-moz-placeholder {
+    /* Firefox 19+ */
+    color: pink;
+}
+
+ :-ms-input-placeholder {
+    /* IE 10+ */
+    color: pink;
+}
+
+ :-moz-placeholder {
+    /* Firefox 18- */
+    color: pink;
+}
 
 .crossfit-intro {
     width: 60%;
@@ -610,114 +654,114 @@ padding: 20px 0px 0px 18px;
     max-width: 1100px;
 }
 
-.programs-container h3{
-	color: #FFFFFF;
-font-weight: 400;
-letter-spacing: 1px;
-text-transform: uppercase;
-font-size: 16px;
+.programs-container h3 {
+    color: #FFFFFF;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 16px;
 }
 
-.programs-container h5{
-	color: #AAAAAA;
-	font-size: 14px;
-	font-weight: 400;
-	letter-spacing: .5px;
-	width: 80%;
-
+.programs-container h5 {
+    color: #AAAAAA;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: .5px;
+    width: 80%;
 }
 
-
-
-.visit-us{
-	width: 80%;
-	margin: auto;
-	max-width: 1100px;
+.visit-us {
+    width: 80%;
+    margin: auto;
+    max-width: 1100px;
 }
 
-.map{
+.map {}
 
-}
-.come-visit-title h1{
-	color: #FFFFFF;
-	font-size: 24px;
-	letter-spacing: 1px;
-	font-weight: 300;
-	text-transform: uppercase;
-}
-.map h3{
-	color: #FFFFFF;
-	font-weight: 400;
-	letter-spacing: 1px;
-	text-transform: uppercase;
-	font-size: 16px;
-}
-.map h4{
-	color: #FFFFFF;
-font-weight: 400;
-letter-spacing: 1px;
-text-transform: uppercase;
-font-size: 15px;
-}
-.map h5{
-	color: #AAAAAA;
-	font-size: 14px;
-	font-weight: 400;
-	letter-spacing: .5px;
-	width: 80%;
-	margin: 0;
+.come-visit-title h1 {
+    color: #FFFFFF;
+    font-size: 24px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    text-transform: uppercase;
 }
 
-
-.coach-title{
-  width: 70%;
-  margin: auto;
-  padding: 75px 0 0 0;
+.map h3 {
+    color: #FFFFFF;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 16px;
 }
 
-.coach-title h2{
-  color: #FFFFFF;
-  font-size: 24px;
-  letter-spacing: 1px;
-  font-weight: 300;
-  text-transform: uppercase;
-}
-.coach-title h4{
-  font-size: 16px;
-  color: #AAAAAA;
-  line-height: 30px;
-  font-weight: 400;
+.map h4 {
+    color: #FFFFFF;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 15px;
 }
 
-.coaches{
-  width: 90%;
-  margin: auto;
-  padding: 75px 0 75px 0;
+.map h5 {
+    color: #AAAAAA;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: .5px;
+    width: 80%;
+    margin: 0;
 }
 
-.coaches h2{
-  color: #FFFFFF;
-font-weight: 400;
-letter-spacing: 1px;
-text-transform: uppercase;
-font-size: 16px;
+.coach-title {
+    width: 70%;
+    margin: auto;
+    padding: 75px 0 0 0;
+}
+
+.coach-title h2 {
+    color: #FFFFFF;
+    font-size: 24px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.coach-title h4 {
+    font-size: 16px;
+    color: #AAAAAA;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+.coaches {
+    width: 90%;
+    margin: auto;
+    padding: 75px 0 75px 0;
+}
+
+.coaches h2 {
+    color: #FFFFFF;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 16px;
 }
 
 .coaches p {
-  margin: auto;
-  width: 270px;
+    margin: auto;
+    width: 270px;
 }
-.coaches span{
-  color: #AAAAAA;
-font-size: 12px;
-font-weight: 400;
-letter-spacing: .5px;
-text-align: center;
 
-margin: auto;
-
+.coaches span {
+    color: #AAAAAA;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: .5px;
+    text-align: center;
+    margin: auto;
     line-height: 25px;
 }
+
+
 /*//
 //
 //
@@ -728,50 +772,46 @@ footer
 //
 //*/
 
-.footer-wrapper{
-height: 240px;
-background-color: #222222;
-
-
+.footer-wrapper {
+    height: 240px;
+    background-color: #222222;
 }
 
-.footer-content{
-padding-top: 70px;
-}
-.copyright{
-  font-size: 14px;
-  color: #AAAAAA;
-  line-height: 29px;
-  margin-bottom: 15px;
-
-}
-.red-bold{
-  color: #CF3233;
-}
-.crosssfit-journal{
-
-}
-.social-icons{
-
+.footer-content {
+    padding-top: 70px;
 }
 
-.icon-facebook{
-      margin: 0 20px 0 0px;
+.copyright {
+    font-size: 14px;
+    color: #AAAAAA;
+    line-height: 29px;
+    margin-bottom: 15px;
 }
 
-.hidden{
-  display: none;
+.red-bold {
+    color: #CF3233;
 }
 
+.crosssfit-journal {}
 
-.monday{
+.social-icons {}
 
+.icon-facebook {
+    margin: 0 20px 0 0px;
 }
-.tuesday{
 
+.hidden {
+    display: none;
 }
-.week{
 
+.monday {}
+
+.tuesday {}
+
+.week {}
+
+.mobile-calender-container {
+    display: none;
 }
 
 
@@ -801,7 +841,10 @@ padding-top: 70px;
 /*------------------------------------*\
     RESPONSIVE
 \*------------------------------------*/
+
+
 /* Remove margins and padding from the list, and add a black background color */
+
 
 /* Change background color of links on hover */
 
@@ -810,11 +853,9 @@ padding-top: 70px;
 
 
 /* When the screen is less than 680 pixels wide, hide all list items, except for the first one ("Home"). Show the list item that contains the link to open and close the topnav (li.icon) */
+
 @media screen and (max-width:680px) {
-
-
-
-/*
+    /*
   .mobile-icon{
     position: fixed;
   z-index: 200;
@@ -828,6 +869,7 @@ padding-top: 70px;
   }*/
 }
 
+
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens */
 
 @media only screen and (max-width:320px) {}
@@ -835,96 +877,98 @@ padding-top: 70px;
 @media only screen and (max-width:480px) {}
 
 @media only screen and (max-width:768px) {
-  .hamburger-icon{
-    font-size: 35px;
-  color: white;
-  text-decoration: none;
-  position: fixed;
-  z-index: 1000;
-  right: 19px;
-  top: 9px;
-  cursor: pointer;
-  }
-
-
-  /* The side navigation menu */
-  .sidenav {
-      height: 100%; /* 100% Full-height */
-      width: 0; /* 0 width - change this with JavaScript */
-      position: fixed; /* Stay in place */
-      z-index: 10000; /* Stay on top */
-      top: 0;
-      right: 0;
-      background-color: #CF3233; /* Black*/
-      overflow-x: hidden; /* Disable horizontal scroll */
-      padding-top: 60px; /* Place content 60px from the top */
-      transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
-  }
-
-  /* The navigation menu links */
-  .sidenav a {
-      padding: 8px 8px 8px 32px;
-      text-decoration: none;
-      font-size: 25px;
-      color: white;
-      display: block;
-      transition: 0.3s
-  }
-
-  /* When you mouse over the navigation links, change their color */
-  .sidenav a:hover, .offcanvas a:focus{
-      color: #f1f1f1;
-  }
-
-  /* Position and style the close button (top right corner) */
-  .sidenav .closebtn {
-      position: absolute;
-      top: 0;
-      right: 25px;
-      font-size: 36px;
-      margin-left: 50px;
-  }
-
-  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
-  #main {
-      transition: margin-left .5s;
-      padding: 20px;
-  }
-
-  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-  @media screen and (max-height: 450px) {
-      .sidenav {padding-top: 15px;}
-      .sidenav a {font-size: 18px;}
-  }
-
-  .nav-bar{
-    display: none;
-  }
-  .mobile-nav-bar{
-
-  }
-  .mobile-google-map{
-    width: 100%;
-    height: 200px;
-  }
-
-  .mobile-calender-container{
-
-     background-color: #181818;
-  }
-  .mobile-weekday-circle{
-    width: 50px;
-    height: 50px;
-    background-color: #CF3233;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    cursor: pointer;
+    .mobile-calender-container {
+        display: flex;
+    }
+    .hamburger-icon {
+        font-size: 35px;
+        color: white;
+        text-decoration: none;
+        position: fixed;
+        z-index: 1000;
+        right: 19px;
+        top: 9px;
+        cursor: pointer;
+    }
+    /* The side navigation menu */
+    .sidenav {
+        height: 100%;
+        /* 100% Full-height */
+        width: 0;
+        /* 0 width - change this with JavaScript */
+        position: fixed;
+        /* Stay in place */
+        z-index: 10000;
+        /* Stay on top */
+        top: 0;
+        right: 0;
+        background-color: #CF3233;
+        /* Black*/
+        overflow-x: hidden;
+        /* Disable horizontal scroll */
+        padding-top: 60px;
+        /* Place content 60px from the top */
+        transition: 0.5s;
+        /* 0.5 second transition effect to slide in the sidenav */
+    }
+    /* The navigation menu links */
+    .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: white;
+        display: block;
+        transition: 0.3s
+    }
+    /* When you mouse over the navigation links, change their color */
+    .sidenav a:hover, .offcanvas a:focus {
+        color: #f1f1f1;
+    }
+    /* Position and style the close button (top right corner) */
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+    /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+    #main {
+        transition: margin-left .5s;
+        padding: 20px;
+    }
+    /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+    @media screen and (max-height: 450px) {
+        .sidenav {
+            padding-top: 15px;
+        }
+        .sidenav a {
+            font-size: 18px;
+        }
+    }
+    .nav-bar {
+        display: none;
+    }
+    .mobile-nav-bar {}
+    .mobile-google-map {
+        width: 100%;
+        height: 200px;
+    }
+    .mobile-calender-container {
+        background-color: #181818;
+    }
+    .mobile-weekday-circle {
+        width: 50px;
+        height: 50px;
+        background-color: #CF3233;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        cursor: pointer;
         z-index: 2000;
-  }
-
+    }
 }
 
 @media only screen and (min-width:1024px) {}

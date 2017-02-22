@@ -23,29 +23,7 @@
 
 
 
-		<div class="mobile-calender-container flex jc-space-around">
-			<div class="mobile-weekday-circle" id="sunday" onclick="mobileDate(this)">
-				S
-			</div>
-			<div class="mobile-weekday-circle" id="monday" onclick="mobileDate(this)">
-				M
-			</div>
-			<div class="mobile-weekday-circle" id="tuesday"onclick="mobileDate(this)">
-				T
-			</div>
-			<div class="mobile-weekday-circle" id="wedensday"onclick="mobileDate(this)">
-				W
-			</div>
-			<div class="mobile-weekday-circle" id="thursday"onclick="mobileDate(this)">
-				T
-			</div>
-			<div class="mobile-weekday-circle" id="friday"onclick="mobileDate(this)">
-				F
-			</div>
-			<div class="mobile-weekday-circle" id="saturday" onclick="mobileDate(this)">
-				S
-			</div>
-		</div>
+		
 		<?php if (have_posts()): while (have_posts()) : the_post(); ?>
 
 			<!-- article -->
