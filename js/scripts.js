@@ -1,32 +1,50 @@
 var currentDay = '';
-  var day = new Date();
-  var weekday = new Array(7);
-  weekday[0] = "sunday";
-  weekday[1] = "monday";
-  weekday[2] = "tuesday";
-  weekday[3] = "wednesday";
-  weekday[4] = "thursday";
-  weekday[5] = "friday";
-  weekday[6] = "saturday";
-  currentDay = weekday[day.getDay()];
-function updateUI(){
-  $.each($('.week').hide(), (a,b) => {
-    var elemClassArr = b.className.split(' ');
-    elemClassArr.forEach((c, d) => {
-        if (c === currentDay) {
-            $('.' + c).removeClass('hidden').show();
-        }
-    })
+var day = new Date();
+var weekday = new Array(7);
+weekday[0] = "sunday";
+weekday[1] = "monday";
+weekday[2] = "tuesday";
+weekday[3] = "wednesday";
+weekday[4] = "thursday";
+weekday[5] = "friday";
+weekday[6] = "saturday";
+currentDay = weekday[day.getDay()];
 
-  });
+function updateUI() {
+    $.each($('.week').hide(), (a, b) => {
+        var elemClassArr = b.className.split(' ');
+
+        elemClassArr.forEach((c, d) => {
+
+            if (c === currentDay) {
+
+                $('.' + c).removeClass('hidden').show();
+                $('#' + c).addClass("red");
+            }
+        })
+
+    });
 }
 
 
-function mobileDate(data){
+function mobileDate(data) {
+    // $.each($('.mobile-weekday-circle'), function(i, v) {
+    //
+    //     $(v).removeClass("red");
+    // });
+    $('.mobile-weekday-circle').removeClass('red');
 
-  var clickedDate = data.id;
-  currentDay = data.id;
-  updateUI();
+    var clickedDate = data.id;
+    currentDay = data.id;
+
+
+    if (!$(data).hasClass("red")) {
+        $(data).addClass("red");
+    } else {
+        $(data).removeClass("red");
+    }
+
+    updateUI();
 }
 (function($, root, undefined) {
     $(function() {
@@ -39,8 +57,8 @@ function mobileDate(data){
         // DOM ready, take it away
 
         carousel();
-          updateUI();
-        })
+        updateUI();
+    })
 
 })(jQuery, this);
 
@@ -76,12 +94,14 @@ function carousel() {
     for (i = 0; i < x.length; i++) {
 
 
-       x[i].style.display = "none";
+        x[i].style.display = "none";
     }
     myIndex++;
-    if (myIndex > x.length) {myIndex = 1}
-    x[myIndex-1].style.display = "block";
-    setTimeout(carousel, 10000); // Change image every 2 seconds
+    if (myIndex > x.length) {
+        myIndex = 1
+    }
+    x[myIndex - 1].style.display = "block";
+    setTimeout(carousel, 100000); // Change image every 2 seconds
 }
 
 // function mobileDate(){

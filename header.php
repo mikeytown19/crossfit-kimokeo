@@ -9,7 +9,7 @@
 		<link href="//www.google-analytics.com" rel="dns-prefetch">
         <link href="<?php echo get_template_directory_uri(); ?>/img/icons/favicon.ico" rel="shortcut icon">
         <link href="<?php echo get_template_directory_uri(); ?>/img/icons/touch.png" rel="apple-touch-icon-precomposed">
-	     
+
 
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -122,7 +122,13 @@
 			  <a class="hamburger-icon"href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
 		</div>
 </div> -->
+<div class="mobile-nav">
+
+
+<a class="mobile-nav-logo"href="/"></a>
+
 <div id="mySidenav" class="sidenav">
+
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
   <a href="#">About</a>
   <a href="#">Services</a>
@@ -132,7 +138,7 @@
 
 <!-- Use any element to open the sidenav -->
 <span class="hamburger-icon"onclick="openNav()">&#9776;</span>
-
+</div>
 <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
 
 

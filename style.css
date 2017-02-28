@@ -406,9 +406,11 @@ nav bar
     line-height: 25px;
     margin-top: 16px;
 }
-.sos_wodify_section_weightlifting{
-  display: none;
+
+.sos_wodify_section_weightlifting {
+    display: none;
 }
+
 .sos_wodify_section_warm-up {
     display: none;
 }
@@ -501,7 +503,7 @@ nav bar
  ::-webkit-input-placeholder {
     /* Chrome/Opera/Safari */
     color: #AAAAAA;
-    padding-left: 15px;
+    padding-left: 5px;
 }
 
  ::-moz-placeholder {
@@ -838,7 +840,6 @@ footer
     margin: auto;
 }
 
-
 .class-title {
     width: 80%;
     margin: auto;
@@ -885,7 +886,7 @@ footer
     min-width: 100px;
     vertical-align: middle;
     position: relative;
-text-transform: uppercase;
+    text-transform: uppercase;
     letter-spacing: 1px;
 }
 
@@ -893,28 +894,70 @@ text-transform: uppercase;
     padding: 9px !important;
     box-sizing: border-box;
 }
-.daycare{
 
-  background: url(./img/icons/daycare.png) no-repeat;
-  height: 20px;
-  width: 19px;
-  position: absolute;
-  margin: auto;
-  right: 2px;
-  top: 4px;
-  /* background-color: white; */
-  background-size: 16px;
+.daycare {
+    background: url(./img/icons/daycare.png) no-repeat;
+    height: 20px;
+    width: 19px;
+    position: absolute;
+    margin: auto;
+    right: 2px;
+    top: 4px;
+    /* background-color: white; */
+    background-size: 16px;
 }
 
-.childcare{
-  width: 80%;
-  margin: auto;
+.childcare {
+    width: 80%;
+    margin: auto;
 }
+
 .childcare div h4 img {
     margin: 0;
 }
-.childcare div h4{
-      letter-spacing: 0.6px;
+
+.childcare div h4 {
+    letter-spacing: 0.6px;
+}
+.contact-text{
+      margin-bottom: -30px;
+}
+.mobile-class-scheduale-text{
+  display: none;
+}
+
+.hamburger-icon{
+  display: none;
+}
+
+.mobile-nav{
+  display: none;
+}
+.wod-container .wpsm-comptable td:first-child {
+    text-align: -webkit-right;
+    min-width: 0px;
+    text-align: -webkit-center;
+
+    width: 1px;
+}
+
+.wod-container .wpsm-comptable td{
+        border: none !important;
+        background: none !important;
+}
+.wod-container .wpsm-comptable td p{
+          margin: 0;
+          padding: 0;
+}
+.wod-container h3 img{
+  margin: 0;
+  padding: 0;
+}
+.mobile-wod-container h2{
+  text-align: left !important;
+  margin-left: 12px;
+  margin-bottom: -20px;
+
 }
 /*------------------------------------*\
     PAGES
@@ -974,245 +1017,391 @@ text-transform: uppercase;
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens */
 
 @media only screen and (max-width:894px) {
-
-  .class-times{
-    display: none;
-  }
+    .class-times {
+        display: none;
+    }
 }
+
 @media only screen and (max-width:320px) {}
 
 @media only screen and (max-width:615px) {
-  .pricing-container {
-      background: #222222;
-       width: 100%;
-      
-  }
-  .crossfit-intro {
-    width: 85%;
-    margin: auto;
-}
-  .wpcf7-form-control-wrap input {
+    .pricing-container {
+        background: #222222;
+        width: 100%;
+    }
+    .crossfit-intro {
+        width: 85%;
+        margin: auto;
+    }
 
-      width: 78%;
-  }
-  .Gender select {
-    width: 78%;
-    height: 40px;
-    border: none;
-}
-.wpcf7-form .wpcf7-submit {
-    width: 78%;
-    height: 40px;
-    border-radius: 3px;
-    border: none;
-    background-color: #C0212A;
-    color: white;
-    font-size: 12px;
-    font-weight: 700;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-}
 
 }
 
 @media only screen and (max-width:1000px) {
-  .sliderSlides {
-       margin-bottom: 0px;
-  }
-  .contact h2 {
-    width: 158px;
-    margin: auto;
-    text-align: center;
-}
 
-  .threes-container {
+  .mobile-wod-container h2{
+    text-align: center !important;
+    margin-left: 0px;
+  }
+  .wod-container .wpsm-comptable td:first-child {
+          text-align: -webkit-right;
+          min-width: inherit;
+
+          width: initial;
+  }
+  .visit-us {
        width: 100%;
-      /* margin: auto; */
-      height: 100%;
-      max-width: 1200px;
-      background: #222222;
+      margin: auto;
+      max-width: 1100px;
   }
 
-  .wod-container {
-    background: #222222;
-    /* width: 100%; */
-    /* min-width: 288px; */
-    /* z-index: 20; */
-    /* margin: 0 12px 0 12px; */
-    /* margin: 0 5px 0 5px; */
-    max-width: 450px;
-    min-height: 420px;
-    margin: auto;
+  .wpcf7-form-control-wrap input {
+    height: 40px;
+    border-radius: 3px;
+    border: none;
+    margin: 7px 0px;
+    width: 100%;
+    padding-left: 10px;
 }
+  .nav-bar {
+      display: none;
+  }
+  .mobile-class-scheduale-text{
+    color: #FFFFFF;
+        font-weight: 400;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        font-size: 1.5em;
+        margin: auto;
+        text-align: -webkit-center;
+        padding-top: 40px;
+        display: inherit;
+  }
+  .mobile-calender-container {
+    background-color: #181818;
+    padding-top: 30px;
+        padding-bottom: 10px;
+}
+.click-day{
+padding-top: 30px;
+}
+.mobile-wod-container{
+  background-color: #181818 !important;
+}
+  .wpcf7-form .wpcf7-submit {
+      width: 100%;
+      height: 40px;
+      border-radius: 3px;
+      border: none;
+      background-color: #C0212A;
+      color: white;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+  }
+    .Gender select {
+        width: 100%;
+        height: 40px;
+        border: none;
+    }
+    .wpcf7-form-control-wrap input[type=text], select {
+        width: 100%;
+        padding-left: 10px;
+    }
+    .contact {
+        height: 100%;
+        padding: 20px 0px 0px 0px;
+        width: 80%;
+        margin: auto;
+        margin: auto;
+    }
+    .contact-text{
+      color: #FFFFFF;
+
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 15px;
+    }
+    .contact-text h2{
+      padding: 0;
+    }
+
+
+    .mySlides .textwidget div {
+        margin: auto;
+    }
+    /*.mySlides .textwidget div {
+      height: 100%;
+      color: white;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+  }*/
+    .mySlides .textwidget {
+      height: 45%;
+    /* background-color: coral; */
+    width: 79%;
+    margin: auto;
+    display: flex;
+    }
+    .mySlides .textwidget div h3 {
+        padding: 0;
+        margin: 0;
+        font-size: 2em;
+    }
+    .mySlides .textwidget div h1 {
+        margin: 0;
+        padding: 0;
+        font-size: 3em;
+        color: #C0212A;
+    }
+    .mySlides {
+        transition: .5s;
+        background-position: center;
+        background-position-y: 6em;
+        height: 100vh !important;
+    }
+    .sliderSlides {
+        margin-bottom: 0px;
+    }
+    .contact h2 {
+        width: 158px;
+        margin: auto;
+        text-align: center;
+    }
+    .threes-container {
+        width: 100%;
+        /* margin: auto; */
+        height: 100%;
+        max-width: 1200px;
+        background: #222222;
+    }
+    .wod-container {
+        background: #222222;
+        /* width: 100%; */
+        /* min-width: 288px; */
+        /* z-index: 20; */
+        /* margin: 0 12px 0 12px; */
+        /* margin: 0 5px 0 5px; */
+        max-width: 450px;
+        min-height: 420px;
+        margin: auto;
+    }
     .mobile-calender-container {
         display: flex;
     }
     .hamburger-icon {
-        font-size: 35px;
+        font-size: 32px;
         color: white;
         text-decoration: none;
         position: fixed;
         z-index: 1000;
-        right: 19px;
+        right: 29px;
         top: 9px;
         cursor: pointer;
+        display: inherit;
     }
-    /* The side navigation menu */
-    .sidenav {
-        height: 100%;
-        /* 100% Full-height */
-        width: 0;
-        /* 0 width - change this with JavaScript */
+    .map h4 {
+        font-size: inherit;
+    }
+    .crossfit-intro h4 {
+        font-size: 2em;
+    }
+    .mobile-nav {
+        background: rgba(0, 0, 0, 0.87);
         position: fixed;
-        /* Stay in place */
-        z-index: 10000;
-        /* Stay on top */
-        top: 0;
-        right: 0;
-        background-color: #CF3233;
-        /* Black*/
-        overflow-x: hidden;
-        /* Disable horizontal scroll */
-        padding-top: 60px;
-        /* Place content 60px from the top */
-        transition: 0.5s;
-        /* 0.5 second transition effect to slide in the sidenav */
-    }
-    /* The navigation menu links */
-    .sidenav a {
-        padding: 8px 8px 8px 32px;
-        text-decoration: none;
-        font-size: 25px;
-        color: white;
-        display: block;
-        transition: 0.3s
-    }
-    /* When you mouse over the navigation links, change their color */
-    .sidenav a:hover, .offcanvas a:focus {
-        color: #f1f1f1;
-    }
-    /* Position and style the close button (top right corner) */
-    .sidenav .closebtn {
-        position: absolute;
-        top: 0;
-        right: 25px;
-        font-size: 36px;
-        margin-left: 50px;
-    }
-    /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
-    #main {
-        transition: margin-left .5s;
-        padding: 20px;
-    }
-    /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-    @media screen and (max-height: 450px) {
-        .sidenav {
-            padding-top: 15px;
-        }
-        .sidenav a {
-            font-size: 18px;
-        }
-    }
-    .nav-bar {
-        display: none;
-    }
-    .mobile-nav-bar {}
-    .mobile-google-map {
+        /* z-index: 1111111111; */
+        /* background-color: azure; */
         width: 100%;
-        height: 200px;
-    }
-    .mobile-calender-container {
-        background-color: #181818;
-    }
-    .mobile-weekday-circle {
-      width: 4vh;
-      height: 4vh;
-      background-color: #CF3233;
-      color: white;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      border-radius: 50%;
-      cursor: pointer;
-      z-index: 2000;
+        height: 68px;
+        z-index: 3000;
+        display: inherit;
     }
 }
 
+
+
+.mobile-nav-logo {
+    background: url('./img/nav-bar/mobile-nav-logo.png') no-repeat;
+    font-size: 35px;
+    height: 50px;
+    width: 50px;
+    color: white;
+    text-decoration: none;
+    position: fixed;
+    z-index: 1000;
+    left: 19px;
+    top: 9px;
+    cursor: pointer;
+}
+
+
+/* The side navigation menu */
+
+.sidenav {
+    height: 100%;
+    /* 100% Full-height */
+    width: 0;
+    /* 0 width - change this with JavaScript */
+    position: fixed;
+    /* Stay in place */
+    z-index: 10000;
+    /* Stay on top */
+    top: 0;
+    right: 0;
+    background-color: #CF3233;
+    /* Black*/
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
+    padding-top: 60px;
+    /* Place content 60px from the top */
+    transition: 0.5s;
+    /* 0.5 second transition effect to slide in the sidenav */
+}
+
+
+/* The navigation menu links */
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s
+}
+
+
+/* When you mouse over the navigation links, change their color */
+
+.sidenav a:hover, .offcanvas a:focus {
+    color: #f1f1f1;
+}
+
+
+/* Position and style the close button (top right corner) */
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+
+@media screen and (max-width: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+
+
+.mobile-nav-bar {}
+
+.mobile-google-map {
+    width: 100%;
+    height: 200px;
+}
+
+.mobile-calender-container {
+    background-color: #181818;
+}
+
+.mobile-weekday-circle {
+  width: 6vh;
+height: 6vh;
+background-color: #363636;
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 50%;
+cursor: pointer;
+z-index: 2000;
+}
+
+.red{
+  background-color: #CF3233;
+}
+}
+
+
+}
 @media only screen and (min-width:1024px) {}
-
 @media only screen and (min-width:1140px) {}
-
 @media only screen and (min-width:1280px) {}
-
 @media only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:144dpi) {}
-
 
 /*------------------------------------*\
     MISC
 \*------------------------------------*/
-
 ::selection {
     background: #04A4CC;
     color: #FFF;
     text-shadow: none;
 }
-
 ::-webkit-selection {
     background: #04A4CC;
     color: #FFF;
     text-shadow: none;
 }
-
 ::-moz-selection {
     background: #04A4CC;
     color: #FFF;
     text-shadow: none;
 }
 
-
 /*------------------------------------*\
     WORDPRESS CORE
 \*------------------------------------*/
-
 .alignnone {
     margin: 5px 20px 20px 0;
 }
-
 .aligncenter, div.aligncenter {
     display: block;
     margin: 5px auto 5px auto;
 }
-
 .alignright {
     float: right;
     margin: 5px 0 20px 20px;
 }
-
 .alignleft {
     float: left;
     margin: 5px 20px 20px 0;
 }
-
 a img.alignright {
     float: right;
     margin: 5px 0 20px 20px;
 }
-
 a img.alignnone {
     margin: 5px 20px 20px 0;
 }
-
 a img.alignleft {
     float: left;
     margin: 5px 20px 20px 0;
 }
-
 a img.aligncenter {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
-
 .wp-caption {
     background: #FFF;
     border: 1px solid #F0F0F0;
@@ -1220,19 +1409,15 @@ a img.aligncenter {
     padding: 5px 3px 10px;
     text-align: center;
 }
-
 .wp-caption.alignnone {
     margin: 5px 20px 20px 0;
 }
-
 .wp-caption.alignleft {
     margin: 5px 20px 20px 0;
 }
-
 .wp-caption.alignright {
     margin: 5px 0 20px 20px;
 }
-
 .wp-caption img {
     border: 0 none;
     height: auto;
@@ -1241,23 +1426,18 @@ a img.aligncenter {
     padding: 0;
     width: auto;
 }
-
 .wp-caption .wp-caption-text, .gallery-caption {
     font-size: 11px;
     line-height: 17px;
     margin: 0;
     padding: 0 4px 5px;
 }
-
 .sticky {}
-
 .bypostauthor {}
-
 
 /*------------------------------------*\
     PRINT
 \*------------------------------------*/
-
 @media print {
     * {
         background: transparent !important;
@@ -1265,38 +1445,49 @@ a img.aligncenter {
         box-shadow: none !important;
         text-shadow: none !important;
     }
+
     a, a:visited {
         text-decoration: underline;
     }
+
     a[href]:after {
         content: " (" attr(href) ")";
     }
+
     abbr[title]:after {
         content: " (" attr(title) ")";
     }
+
     .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after {
         content: "";
     }
+
     pre, blockquote {
         border: 1px solid #999;
         page-break-inside: avoid;
     }
+
     thead {
         display: table-header-group;
     }
+
     tr, img {
         page-break-inside: avoid;
     }
+
     img {
         max-width: 100% !important;
     }
+
     @page {
         margin: 0.5cm;
     }
+
     p, h2, h3 {
         orphans: 3;
         widows: 3;
     }
+
     h2, h3 {
         page-break-after: avoid;
     }
