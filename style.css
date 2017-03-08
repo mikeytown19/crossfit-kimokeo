@@ -298,6 +298,7 @@ nav bar
     font-weight: 400;
     cursor: pointer;
     transition: .3s;
+    text-decoration: none;
 }
 
 .sub-nav:hover {
@@ -322,8 +323,11 @@ nav bar
     border: solid #C0212A thin;
     background-color: inherit;
     padding: 10px 20px 10px 20px;
-}
 
+}
+.a-sign-up{
+  border-bottom: none !important;
+}
 .homebackground-1 {
     background: url('./img/background/home-background1.png') no-repeat;
     height: 65vh;
@@ -1038,6 +1042,10 @@ footer
 }
 
 @media only screen and (max-width:1000px) {
+  .mobile-google-map {
+      width: 100%;
+      height: 250px;
+  }
 
   .mobile-wod-container h2{
     text-align: center !important;
@@ -1315,10 +1323,7 @@ padding-top: 30px;
 
 .mobile-nav-bar {}
 
-.mobile-google-map {
-    width: 100%;
-    height: 200px;
-}
+
 
 .mobile-calender-container {
     background-color: #181818;

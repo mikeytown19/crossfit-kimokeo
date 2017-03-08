@@ -51,22 +51,22 @@
 							<img src="<?php echo get_template_directory_uri(); ?>/img/nav-bar/navLogo.png" alt="Logo">
 						</div>
 						<div class="nav-menu flex flex2">
-							<a class="sub-nav" id="nav-home">
+							<a class="sub-nav " id="nav-home" onclick="smoothScroll(document.getElementById('Home'))">
 								Home
 							</a>
-							<a class="sub-nav" id="nav-">
+							<a class="sub-nav " onclick="smoothScroll(document.getElementById('Scheduale'))"id="nav-">
 								Scheduale
 							</a>
-							<a class="sub-nav" id="nav-">
+							<a class="sub-nav" id="nav-"onclick="smoothScroll(document.getElementById('Pricing'))">
 								Pricing
 							</a>
-							<a class="sub-nav" id="nav-">
+							<a class="sub-nav" id="nav-"onclick="smoothScroll(document.getElementById('Programs'))">
 								Programs
 							</a>
-							<a class="sub-nav" id="nav-">
+							<a class="sub-nav" id="nav-"onclick="smoothScroll(document.getElementById('About'))">
 								About
 							</a>
-							<a class="sub-nav" id="nav-">
+							<a class="sub-nav" id="nav-"onclick="smoothScroll(document.getElementById('Contact'))">
 								Contact
 							</a>
 							<div id="nav-sign-up" class="sub-nav a-sign-up">
