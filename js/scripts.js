@@ -51,13 +51,20 @@ function mobileDate(data) {
 
 
 
-
-
         'use strict';
         // DOM ready, take it away
 
 
+        $(window).on('wheel', function(e) {
 
+          $('.nav-container').removeClass('nav-color');
+        	var delta = e.originalEvent.deltaY;
+
+        	// if (delta > 0) $('body').text('down');
+        	// else $('body').text('up');
+
+
+        });
 
         carousel();
         updateUI();
@@ -104,7 +111,7 @@ function carousel() {
         myIndex = 1
     }
     x[myIndex - 1].style.display = "block";
-    setTimeout(carousel, 100000); // Change image every 2 seconds
+    setTimeout(carousel, 50000); // Change image every 2 seconds
 }
 
 // function mobileDate(){
@@ -148,3 +155,4 @@ window.smoothScroll = function(target) {
     // start scrolling
     scroll(scrollContainer, scrollContainer.scrollTop, targetY, 0);
 }
+// Hide the extra content initially, using JS so that if JS is disabled, no problemo.

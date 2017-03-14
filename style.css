@@ -184,7 +184,15 @@ input:focus {
 
 .logo-img {}
 
-
+.logo-text{
+  color: #D8D8D8;
+font-size: 22px;
+letter-spacing: 1px;
+font-weight: 300;
+text-transform: uppercase;
+padding-top: 12px;
+margin-left: 10px;
+}
 /* nav */
 
 .nav {}
@@ -745,9 +753,10 @@ nav bar
 }
 
 .coaches {
-    width: 90%;
+    width: 75%;
     margin: auto;
     padding: 75px 0 75px 0;
+    max-width: 1200px;
 }
 
 .coaches h2 {
@@ -760,7 +769,7 @@ nav bar
 
 .coaches p {
     margin: auto;
-    width: 270px;
+    width: 80%;
 }
 
 .coaches span {
@@ -773,6 +782,14 @@ nav bar
     line-height: 25px;
 }
 
+
+.white{
+  color: white !important;
+}
+
+.white h1{
+  color: white !important;
+}
 
 /*//
 //
@@ -963,6 +980,30 @@ footer
   margin-bottom: -20px;
 
 }
+
+
+.hide {
+  display: none;
+}
+.read-more-hidden{
+  display: none;
+}
+.show_more{
+  display: none;
+}
+
+
+.nav-color{
+  background: none !important;
+}
+
+
+#myElement {
+  background: silver;
+  height: 300px;
+  text-align: center;
+  font: 30px/300px Helvetica, Arial, sans-serif;
+}
 /*------------------------------------*\
     PAGES
 \*------------------------------------*/
@@ -1042,6 +1083,68 @@ footer
 }
 
 @media only screen and (max-width:1000px) {
+  .wpsm-show{
+    background: url(./img/readmore.png) no-repeat;
+  font-size: 35px;
+  height: 70px;
+  width: 70px;
+  color: white;
+  cursor: pointer;
+  background-size: 30px;
+  margin: auto;
+  /* background-color: aliceblue; */
+  background-position-x: 20px;
+  background-position-y: 24px;
+
+
+    cursor: pointer;
+  }
+
+  .wpsm-hide{
+    text-decoration: none;
+    background: url(./img/hide.png) no-repeat;
+  font-size: 35px;
+  height: 70px;
+  width: 70px;
+  color: white;
+  cursor: pointer;
+  background-size: 30px;
+  margin: auto;
+  /* background-color: aliceblue; */
+  background-position-x: 20px;
+  background-position-y: 28px;
+
+
+    cursor: pointer;
+  }
+  .wpsm-show:hover {
+    cursor: pointer;
+    text-decoration: none;
+}
+.wpsm-hide:hover {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+  .crossfit-intro .wpsm-content{
+    font-size: 15px;
+color: #D8D8D8;
+line-height: 30px;
+text-align: -webkit-center;
+margin-top: -18px;
+  }
+  .mobile-hidden-text{
+    display: none;
+  }
+
+  .read-more-hidden{
+    display: inherit;
+  }
+  .show_more{
+    display: inherit;
+  }
+
+
   .mobile-google-map {
       width: 100%;
       height: 250px;
@@ -1137,7 +1240,7 @@ padding-top: 30px;
 
 
     .mySlides .textwidget div {
-        margin: auto;
+        margin: 0 ;
     }
     /*.mySlides .textwidget div {
       height: 100%;

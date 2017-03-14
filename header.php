@@ -43,12 +43,23 @@
 						<?php html5blank_nav(); ?>
 					</nav> -->
 
-					<div class="nav-container">
+					<div class="nav-container nav-color">
 
 
-					<div class="nav-bar  flex ">
+					<div class="nav-bar nav-color flex ">
 						<div class="nav-logo flex1">
-							<img src="<?php echo get_template_directory_uri(); ?>/img/nav-bar/navLogo.png" alt="Logo">
+
+							<div class="flex jc-center">
+								<img src="<?php echo get_template_directory_uri(); ?>/img/nav-bar/Group1.png" alt="Logo">
+								<div class="logo-text">
+									Crossfit <br> Kimokeo
+								</div>
+							</div>
+
+							<!-- <img src="<?php echo get_template_directory_uri(); ?>/img/nav-bar/pe-logo.png" alt="Logo">
+
+							<img src="<?php echo get_template_directory_uri(); ?>/img/nav-bar/gorilla.png" alt="Logo">
+							<img src="<?php echo get_template_directory_uri(); ?>/img/nav-bar/logo-text.png" alt="Logo"> -->
 						</div>
 						<div class="nav-menu flex flex2">
 							<a class="sub-nav " id="nav-home" onclick="smoothScroll(document.getElementById('Home'))">
