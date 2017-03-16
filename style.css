@@ -898,7 +898,7 @@ footer
 .hover-col1 tr td:first-child {
     background-color: inherit !important;
     color: #D8D8D8;
-    border-color: inherit !important;
+    border-color: 0 !important;
     text-transform: uppercase;
     min-width: 50px;
     text-align: center;
@@ -1038,12 +1038,25 @@ div#n2-ss-4 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot.n2-active, div#n2-ss-
 div#n2-ss-5 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot.n2-active, div#n2-ss-5 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot:HOVER{
   background: #ccc !important;
 }
+
+div#n2-ss-7 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot.n2-active, div#n2-ss-7 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot:HOVER
 .mobile-price{
-  display: none;
+  background: #ccc !important;
 }
 
 .n2-ss-slider .n2-ss-widget div span{
 font-family: inherit !important;
+}
+
+div#n2-ss-7 .n2-style-e1257ea0db9476696a5bba707eb04f19-simple{
+  width: 80%;
+  margin: auto !important;
+  text-align: center;
+}
+div#n2-ss-7 .n2-style-e1257ea0db9476696a5bba707eb04f19-simple span{
+  font-size: 13.5px;
+
+
 }
 
 
@@ -1130,6 +1143,15 @@ font-family: inherit !important;
 }
 
 @media only screen and (max-width:1000px) {
+  .come-visit-title h1 {
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+  .crossfit-home-info{
+    margin-left: 30px;
+    margin-bottom: 50px;
+  }
   .coach-title {
     width: 70%;
     margin: auto;
@@ -1137,6 +1159,7 @@ font-family: inherit !important;
 }
   .About{
     background-color: #222222;
+    padding-bottom: 30px;
   }
   .programs h4 {
 
