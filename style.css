@@ -791,6 +791,10 @@ nav bar
   color: white !important;
 }
 
+
+
+
+
 /*//
 //
 //
@@ -1004,6 +1008,31 @@ footer
   text-align: center;
   font: 30px/300px Helvetica, Arial, sans-serif;
 }
+
+
+
+div#n2-ss-3 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot.n2-active, div#n2-ss-3 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot:HOVER{
+  background: #ccc !important;
+}
+div#n2-ss-4 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot.n2-active, div#n2-ss-4 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot:HOVER{
+    background: #ccc !important;
+}
+div#n2-ss-5 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot.n2-active, div#n2-ss-5 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot:HOVER{
+  background: #ccc !important;
+}
+.mobile-price{
+  display: none;
+}
+
+.n2-ss-slider .n2-ss-widget div span{
+font-family: inherit !important;
+}
+
+
+
+.hideNonMobile{
+  display: none;
+}
 /*------------------------------------*\
     PAGES
 \*------------------------------------*/
@@ -1083,6 +1112,29 @@ footer
 }
 
 @media only screen and (max-width:1000px) {
+  .coach-title {
+    width: 70%;
+    margin: auto;
+    padding: 36px 0 0 0;
+}
+  .About{
+    background-color: #222222;
+  }
+  .programs h4 {
+
+    margin-bottom: -15px;
+}
+
+  .hideNonMobile{
+    display: inherit;
+  }
+  .hideOnMobile{
+    display: none;
+  }
+  .mobile-price{
+    display: inherit;
+  }
+
   .wpsm-show{
     background: url(./img/readmore.png) no-repeat;
   font-size: 35px;
