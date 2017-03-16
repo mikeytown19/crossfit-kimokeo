@@ -359,6 +359,7 @@ nav bar
     margin: auto;
     height: 100%;
     max-width: 1200px;
+
 }
 
 .wox-box-container {
@@ -1009,7 +1010,24 @@ footer
   font: 30px/300px Helvetica, Arial, sans-serif;
 }
 
-
+div#n2-ss-6 .n2-style-0588b65a62ff3b43b59317ec64b5611c-dot {
+      background:rgba(222, 222, 222, 0.57) !important;
+    background: RGBA(0,0,0,0.67);
+    opacity: 1;
+    padding: 0px 0px 0px 0px !important;
+    /* box-shadow: none; */
+    border-width: 0px;
+    border-style: solid;
+    border-color: #000000;
+    border-color: RGBA(0,0,0,1);
+    border-radius: 0 !important;
+    margin: 0px 15px 0 0;
+    width: 50px;
+    height: 2px;
+}
+div#n2-ss-6 .n2-style-0588b65a62ff3b43b59317ec64b5611c-dot.n2-active, div#n2-ss-6 .n2-style-0588b65a62ff3b43b59317ec64b5611c-dot:HOVER{
+  background: #CF3233 !important;
+}
 
 div#n2-ss-3 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot.n2-active, div#n2-ss-3 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot:HOVER{
   background: #ccc !important;
