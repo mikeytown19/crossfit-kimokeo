@@ -12,7 +12,8 @@
 
 
 		 <div class="copyright">
-			 Copyright © 2017  <span class="red-bold">Crossfit Kimokeo</span>  All rights reserved </br>
+			 Copyright © 2017 <br> <span class="red-bold">Crossfit Kimokeo</span> <br> All rights reserved </br>
+			 <br>
 			 Crossfit is a registered trademark of Crossfit Inc.
 		 </div>
 		 <div class="crosssfit-journal">
@@ -27,7 +28,7 @@
 			 	</div>
 				<div class="">
 					<a href="#">
-				<img src="<?php echo get_template_directory_uri(); ?>/img/icons/Icon-Instagram.svg" alt="">
+				<img class="insaImg"src="<?php echo get_template_directory_uri(); ?>/img/icons/Icon-Instagram.svg" alt="">
 					</a>
 				</div>
 

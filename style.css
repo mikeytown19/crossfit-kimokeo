@@ -3,6 +3,11 @@
     src: url('./fonts/GothamSSm-Black.otf'),
 }
 
+@font-face {
+	font-family: FontName;
+	src: url('/wp-content/themes/html5blank-stable/fonts/GothamSS.otf');
+	font-weight: normal;
+}
 
 /*------------------------------------*\
     MAIN
@@ -128,6 +133,7 @@ body {
     font: 300 11px/1.4 customG, Helvetica, Arial, sans-serif;
     color: #444;
     background: #181818;
+    font-family: GothamSSm !important;
 }
 
 
@@ -188,7 +194,7 @@ input:focus {
   color: #D8D8D8;
 font-size: 22px;
 letter-spacing: 1px;
-font-weight: 300;
+font-weight: 900;
 text-transform: uppercase;
 padding-top: 12px;
 margin-left: 10px;
@@ -303,7 +309,7 @@ nav bar
     color: white;
     font-size: 14px;
     text-transform: uppercase;
-    font-weight: 400;
+    font-weight: bold;
     cursor: pointer;
     transition: .3s;
     text-decoration: none;
@@ -567,7 +573,7 @@ nav bar
     width: 70%;
     margin: auto;
     padding-top: 75px;
-    padding-bottom: 75px;
+    padding-bottom: 50px;
 }
 
 .crossfit-info-icon {}
@@ -807,8 +813,9 @@ footer
 //*/
 
 .footer-wrapper {
-    height: 240px;
-    background-color: #222222;
+  background-color: #222222;
+padding: 0 15px 40px 30px;
+height: auto;
 }
 
 .footer-content {
@@ -1064,6 +1071,9 @@ div#n2-ss-7 .n2-style-e1257ea0db9476696a5bba707eb04f19-simple span{
 .hideNonMobile{
   display: none;
 }
+.crossfit-home-info{
+  margin-right: 15px;
+}
 /*------------------------------------*\
     PAGES
 \*------------------------------------*/
@@ -1143,6 +1153,43 @@ div#n2-ss-7 .n2-style-e1257ea0db9476696a5bba707eb04f19-simple span{
 }
 
 @media only screen and (max-width:1000px) {
+  .mobile-map{
+    margin-bottom: -20px;
+  }
+
+  .wod-inside-containter{
+
+  }
+  .wodify-signIn{
+    margin-left: 20PX;
+  }
+  .wod-inside-containter {
+    padding: 60px 20px 0px 40px;
+}
+.mobile-sign-up{
+margin-top: 50px !important;
+background-color: #222222 !important;
+
+    font-size: 13px !important;
+}
+.mobile-menu-items{
+  margin-top: 120px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+  .social-icons .insaImg{
+    width: 30px;
+
+}
+
+  .footer-wrapper {
+    background-color: #222222;
+    padding: 0 15px 40px 30px;
+    height: auto;
+}
   .come-visit-title h1 {
     margin-top: 30px;
     margin-bottom: 0px;
@@ -1162,8 +1209,10 @@ div#n2-ss-7 .n2-style-e1257ea0db9476696a5bba707eb04f19-simple span{
     padding-bottom: 30px;
   }
   .programs h4 {
-
     margin-bottom: -15px;
+width: 90%;
+margin: auto;
+
 }
 
   .hideNonMobile{
@@ -1428,10 +1477,10 @@ padding-top: 30px;
 
 
 .mobile-nav-logo {
-    background: url('./img/nav-bar/mobile-nav-logo.png') no-repeat;
+    background: url(./img/nav-bar/group35.png) no-repeat;
     font-size: 35px;
     height: 50px;
-    width: 50px;
+    width: 123px;
     color: white;
     text-decoration: none;
     position: fixed;
@@ -1439,12 +1488,15 @@ padding-top: 30px;
     left: 19px;
     top: 9px;
     cursor: pointer;
+    background-size: contain;
+    cursor: pointer;
 }
 
 
 /* The side navigation menu */
 
 .sidenav {
+      text-transform: uppercase;
     height: 100%;
     /* 100% Full-height */
     width: 0;
@@ -1469,7 +1521,7 @@ padding-top: 30px;
 /* The navigation menu links */
 
 .sidenav a {
-    padding: 8px 8px 8px 32px;
+        margin: 10px 0 0px 0;
     text-decoration: none;
     font-size: 25px;
     color: white;
@@ -1488,11 +1540,11 @@ padding-top: 30px;
 /* Position and style the close button (top right corner) */
 
 .sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
+  position: absolute;
+  top: 0;
+  right: 30px;
+  font-size: 38px;
+  margin-left: 50px;
 }
 
 
@@ -1511,7 +1563,7 @@ padding-top: 30px;
         padding-top: 15px;
     }
     .sidenav a {
-        font-size: 18px;
+        font-size: 16px;
     }
 }
 

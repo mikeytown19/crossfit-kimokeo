@@ -62,8 +62,11 @@
 							<img src="<?php echo get_template_directory_uri(); ?>/img/nav-bar/logo-text.png" alt="Logo"> -->
 						</div>
 						<div class="nav-menu flex flex2">
-							<a class="sub-nav " id="nav-home" onclick="smoothScroll(document.getElementById('Home'))">
+							<!-- <a class="sub-nav " id="nav-home" onclick="smoothScroll(document.getElementById('Home'))">
 								Home
+							</a> -->
+							<a class="sub-nav" id="nav-"onclick="smoothScroll(document.getElementById('About'))">
+								About
 							</a>
 							<a class="sub-nav " onclick="smoothScroll(document.getElementById('Scheduale'))"id="nav-">
 								Scheduale
@@ -74,9 +77,7 @@
 							<a class="sub-nav" id="nav-"onclick="smoothScroll(document.getElementById('Programs'))">
 								Programs
 							</a>
-							<a class="sub-nav" id="nav-"onclick="smoothScroll(document.getElementById('About'))">
-								About
-							</a>
+
 							<a class="sub-nav" id="nav-"onclick="smoothScroll(document.getElementById('Contact'))">
 								Contact
 							</a>
@@ -141,10 +142,31 @@
 <div id="mySidenav" class="sidenav">
 
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <a href="#">About</a>
-  <a href="#">Services</a>
-  <a href="#">Clients</a>
-  <a href="#">Contact</a>
+	<div class="mobile-menu-items">
+
+
+	<a class  id="nav-home" onclick="smoothScroll(document.getElementById('Home'))">
+		Home
+	</a>
+	<a class  onclick="smoothScroll(document.getElementById('Scheduale'))"id="nav-">
+		Scheduale
+	</a>
+	<a class id="nav-"onclick="smoothScroll(document.getElementById('Pricing'))">
+		Pricing
+	</a>
+	<a class id="nav-"onclick="smoothScroll(document.getElementById('Programs'))">
+		Programs
+	</a>
+	<a class id="nav-"onclick="smoothScroll(document.getElementById('About'))">
+		About
+	</a>
+	<a class id="nav-"onclick="smoothScroll(document.getElementById('Contact'))">
+		Contact
+	</a>
+	<div id="nav-sign-up" class="sub-nav a-sign-up">
+		<a class="mobile-sign-up"href="/"> Sign up </a>
+	</div>
+	</div>
 </div>
 
 <!-- Use any element to open the sidenav -->
