@@ -192,12 +192,13 @@ input:focus {
 
 .logo-text{
   color: #D8D8D8;
-font-size: 22px;
-letter-spacing: 1px;
-font-weight: 900;
-text-transform: uppercase;
-padding-top: 12px;
-margin-left: 10px;
+  font-size: 22px;
+  letter-spacing: 1px;
+  font-weight: 900;
+  text-transform: uppercase;
+  padding-top: 15px;
+  margin-left: 10px;
+  line-height: 24px;
 }
 /* nav */
 
@@ -350,6 +351,8 @@ nav bar
 }
 
 .wod-container {
+
+    border-radius: 2px;
     background: #222222;
     /* width: 100%; */
     /* min-width: 288px; */
@@ -393,6 +396,7 @@ nav bar
     letter-spacing: 1px;
     text-transform: uppercase;
     font-size: 15px;
+        letter-spacing: 3px;
 }
 
 .soswodify_section_title {
@@ -563,8 +567,8 @@ nav bar
 .crossfit-intro h4 {
     color: #D8D8D8;
     font-size: 24px;
-    letter-spacing: 1px;
-    font-weight: 300;
+        letter-spacing: 3px;
+    font-weight: 400;
     text-transform: uppercase;
     padding-top: 50px;
 }
@@ -615,16 +619,17 @@ nav bar
 .pricing-info h2 {
     color: #FFFFFF;
     font-size: 50px;
-    font-weight: 700;
+    font-weight: 300;
     margin: 0;
 }
 
 .pricing-info h6 {
-    font-size: 11px;
-    margin: 0;
-    padding-bottom: 30px;
-    font-weight: 100;
-    letter-spacing: 1px;
+  font-size: 12px;
+margin: 0;
+padding-bottom: 30px;
+font-weight: 400;
+letter-spacing: 1px;
+font-style: italic;
 }
 
 .drop-in-price {
@@ -663,8 +668,8 @@ nav bar
 .programs h2 {
     color: #FFFFFF;
     font-size: 24px;
-    letter-spacing: 1px;
-    font-weight: 300;
+    letter-spacing: 3px;
+    font-weight: 400;
     text-transform: uppercase;
 }
 
@@ -708,8 +713,8 @@ nav bar
 .come-visit-title h1 {
     color: #FFFFFF;
     font-size: 24px;
-    letter-spacing: 1px;
-    font-weight: 300;
+    letter-spacing: 3px;
+    font-weight: 400;
     text-transform: uppercase;
 }
 
@@ -747,8 +752,8 @@ nav bar
 .coach-title h2 {
     color: #FFFFFF;
     font-size: 24px;
-    letter-spacing: 1px;
-    font-weight: 300;
+    letter-spacing: 3px;
+    font-weight: 400;
     text-transform: uppercase;
 }
 
@@ -838,7 +843,7 @@ height: auto;
 .social-icons {}
 
 .icon-facebook {
-    margin: 0 20px 0 0px;
+    margin: 0 12px 0 0px;
 }
 
 .hidden {
@@ -882,9 +887,10 @@ height: auto;
 .class-title h2 {
     color: #FFFFFF;
     font-size: 24px;
-    letter-spacing: 1px;
-    font-weight: 300;
+
+    font-weight: 400;
     text-transform: uppercase;
+        letter-spacing: 3px;
 }
 
 .class-title h4 {
@@ -921,6 +927,7 @@ height: auto;
     position: relative;
     text-transform: uppercase;
     letter-spacing: 1px;
+        font-weight: 400;
 }
 
 .wpsm-comptable th, .wpsm-comptable td {
@@ -970,7 +977,7 @@ height: auto;
     text-align: -webkit-right;
     min-width: 0px;
     text-align: -webkit-center;
-
+    color: #AAAAAA;
     width: 1px;
 }
 
@@ -1153,6 +1160,13 @@ div#n2-ss-7 .n2-style-e1257ea0db9476696a5bba707eb04f19-simple span{
 }
 
 @media only screen and (max-width:1000px) {
+  .sos_wodify_section_weightlifting {
+      display: inherit;
+  }
+
+  .sos_wodify_section_warm-up {
+      display: inherit;
+  }
   .mobile-map{
     margin-bottom: -20px;
   }
@@ -1181,7 +1195,8 @@ align-items: center;
 
 }
   .social-icons .insaImg{
-    width: 30px;
+    max-width: inherit;
+        margin-left: 3px;
 
 }
 
