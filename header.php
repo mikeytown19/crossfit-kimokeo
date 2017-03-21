@@ -69,7 +69,7 @@
 								About
 							</a>
 							<a class="sub-nav " href='#nav-scheduale'>
-								Scheduale
+								Schedule
 							</a>
 							<a class="sub-nav" href="#nav-pricing">
 								Pricing
@@ -152,7 +152,7 @@
 			About
 		</a>
 		<a class="sub-nav " href='#nav-scheduale'>
-			Scheduale
+			Schedule
 		</a>
 		<a class="sub-nav" href="#nav-pricing">
 			Pricing
