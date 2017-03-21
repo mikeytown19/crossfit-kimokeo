@@ -68,6 +68,34 @@ function mobileDate(data) {
 
         // carousel();
         updateUI();
+
+
+
+        // Add smooth scrolling to all links
+$(".sub-nav").on('click', function(event) {
+
+  // Make sure this.hash has a value before overriding default behavior
+  if (this.hash !== "") {
+    // Prevent default anchor click behavior
+    event.preventDefault();
+
+    // Store hash
+    var hash = this.hash;
+    console.log(this);
+    // Using jQuery's animate() method to add smooth page scroll
+    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+    $('html, body').animate({
+      scrollTop: $(hash).offset().top-100
+    }, 1400, function(){
+
+      // Add hash (#) to URL when done scrolling (default click behavior)
+      window.location.hash = hash;
+    });
+  } // End if
+});
+
+
+
     })
 
 })(jQuery, this);
@@ -150,7 +178,7 @@ window.smoothScroll = function(target) {
     scroll = function(c, a, b, i) {
         i++; if (i > 28) return;
         c.scrollTop = a + (b - a) / 30 * i;
-        setTimeout(function(){ scroll(c, a, b, i); }, 12);
+        setTimeout(function(){ scroll(c, a, b, i); }, 17);
     }
     // start scrolling
     scroll(scrollContainer, scrollContainer.scrollTop, targetY, 0);

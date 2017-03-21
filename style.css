@@ -12,7 +12,9 @@
 /*------------------------------------*\
     MAIN
 \*------------------------------------*/
-
+a:focus {
+    outline: none;
+}
 
 /*
 .
@@ -199,6 +201,7 @@ input:focus {
   padding-top: 15px;
   margin-left: 10px;
   line-height: 24px;
+  text-decoration: none;
 }
 /* nav */
 
@@ -277,7 +280,9 @@ nav bar
     z-index: 100;
 }
 
-.nav-logo {}
+.nav-logo a{
+  text-decoration: none;
+}
 
 .nav-logo img {
     height: 80px;
@@ -310,7 +315,7 @@ nav bar
     color: white;
     font-size: 14px;
     text-transform: uppercase;
-    font-weight: bold;
+  font-weight: 500;
     cursor: pointer;
     transition: .3s;
     text-decoration: none;
@@ -574,10 +579,10 @@ nav bar
 }
 
 .crossift-info-icon-container {
-    width: 70%;
+    width: 80%;
     margin: auto;
-    padding-top: 75px;
-    padding-bottom: 50px;
+    padding-top: 40px;
+    padding-bottom: 10px;
 }
 
 .crossfit-info-icon {}
@@ -677,7 +682,7 @@ font-style: italic;
     font-size: 14px;
     color: #AAAAAA;
     line-height: 30px;
-    font-weight: 100;
+      font-weight: 400;
 }
 
 .programs-container {
@@ -687,19 +692,20 @@ font-style: italic;
 }
 
 .programs-container h3 {
-    color: #FFFFFF;
-    font-weight: 400;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    font-size: 16px;
+  color: #FFFFFF;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 500;
 }
 
 .programs-container h5 {
-    color: #AAAAAA;
-    font-size: 14px;
-    font-weight: 400;
-    letter-spacing: .5px;
-    width: 80%;
+  color: #AAAAAA;
+font-size: 12px;
+line-height: 27px;
+letter-spacing: .5px;
+width: 80%;
+font-weight: 400;
 }
 
 .visit-us {
@@ -735,12 +741,13 @@ font-style: italic;
 }
 
 .map h5 {
-    color: #AAAAAA;
-    font-size: 14px;
-    font-weight: 400;
-    letter-spacing: .5px;
-    width: 80%;
-    margin: 0;
+  color: #AAAAAA;
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: .5px;
+  line-height: 25px;
+  width: 80%;
+  margin: 0;
 }
 
 .coach-title {
@@ -958,6 +965,12 @@ height: auto;
 
 .childcare div h4 {
     letter-spacing: 0.6px;
+    color: white;
+    font-weight: 400;
+}
+.ow-button-base a {
+
+    font-weight: 500;
 }
 .contact-text{
       margin-bottom: -30px;
@@ -1160,6 +1173,9 @@ div#n2-ss-7 .n2-style-e1257ea0db9476696a5bba707eb04f19-simple span{
 }
 
 @media only screen and (max-width:1000px) {
+  .wod-background-full{
+    background-color: #181818 !important
+  }
   .sos_wodify_section_weightlifting {
       display: inherit;
   }

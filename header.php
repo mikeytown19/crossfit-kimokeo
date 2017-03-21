@@ -49,12 +49,12 @@
 					<div class="nav-bar nav-color flex ">
 						<div class="nav-logo flex1">
 
-							<div class="flex jc-center">
+							<a class="flex jc-center" href="/">
 								<img src="<?php echo get_template_directory_uri(); ?>/img/nav-bar/Group1.png" alt="Logo">
 								<div class="logo-text">
 									Crossfit <br> Kimokeo
 								</div>
-							</div>
+							</a>
 
 							<!-- <img src="<?php echo get_template_directory_uri(); ?>/img/nav-bar/pe-logo.png" alt="Logo">
 
@@ -65,20 +65,23 @@
 							<!-- <a class="sub-nav " id="nav-home" onclick="smoothScroll(document.getElementById('Home'))">
 								Home
 							</a> -->
-							<a class="sub-nav" id="nav-"onclick="smoothScroll(document.getElementById('About'))">
+							<a class="sub-nav"  href="#nav-about">
 								About
 							</a>
-							<a class="sub-nav " onclick="smoothScroll(document.getElementById('Scheduale'))"id="nav-">
+							<a class="sub-nav " href='#nav-scheduale'>
 								Scheduale
 							</a>
-							<a class="sub-nav" id="nav-"onclick="smoothScroll(document.getElementById('Pricing'))">
+							<a class="sub-nav" href="#nav-pricing">
 								Pricing
 							</a>
-							<a class="sub-nav" id="nav-"onclick="smoothScroll(document.getElementById('Programs'))">
+							<a class="sub-nav" href="#nav-programs">
 								Programs
 							</a>
 
-							<a class="sub-nav" id="nav-"onclick="smoothScroll(document.getElementById('Contact'))">
+							<a class="sub-nav" href="#nav-coaches">
+								Coaches
+							</a>
+							<a class="sub-nav" href="#nav-contact">
 								Contact
 							</a>
 							<div id="nav-sign-up" class="sub-nav a-sign-up">
@@ -145,24 +148,25 @@
 	<div class="mobile-menu-items">
 
 
-	<a class  id="nav-home" onclick="smoothScroll(document.getElementById('Home'))">
-		Home
-	</a>
-	<a class  onclick="smoothScroll(document.getElementById('Scheduale'))"id="nav-">
-		Scheduale
-	</a>
-	<a class id="nav-"onclick="smoothScroll(document.getElementById('Pricing'))">
-		Pricing
-	</a>
-	<a class id="nav-"onclick="smoothScroll(document.getElementById('Programs'))">
-		Programs
-	</a>
-	<a class id="nav-"onclick="smoothScroll(document.getElementById('About'))">
-		About
-	</a>
-	<a class id="nav-"onclick="smoothScroll(document.getElementById('Contact'))">
-		Contact
-	</a>
+		<a class="sub-nav"  href="#nav-about">
+			About
+		</a>
+		<a class="sub-nav " href='#nav-scheduale'>
+			Scheduale
+		</a>
+		<a class="sub-nav" href="#nav-pricing">
+			Pricing
+		</a>
+		<a class="sub-nav" href="#nav-programs">
+			Programs
+		</a>
+
+		<a class="sub-nav" href="#nav-coaches">
+			Coaches
+		</a>
+		<a class="sub-nav" href="#nav-contact">
+			Contact
+		</a>
 	<div id="nav-sign-up" class="sub-nav a-sign-up">
 		<a class="mobile-sign-up"href="/"> Sign up </a>
 	</div>
