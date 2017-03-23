@@ -196,7 +196,7 @@ input:focus {
   color: #fff;
   font-size: 22px;
   letter-spacing: 1px;
-  font-weight: 900;
+  font-weight: 700;
   text-transform: uppercase;
   padding-top: 15px;
   margin-left: 10px;
@@ -285,7 +285,8 @@ nav bar
 }
 
 .nav-logo img {
-    height: 80px;
+  height: 60px;
+margin-top: 5px;
 }
 
 .nav-container {
@@ -303,22 +304,26 @@ nav bar
     background: rgba(0, 0, 0, 0.87);
     /* width: 1400px; */
     margin: auto;
-    max-width: 1400px;
+    max-width: 1200px;
 }
 
 .nav-menu {
-    justify-content: space-around;
+    justify-content: flex-end;
     padding-top: 34px;
+        /*max-width: 775px;
+        margin-right: 25px;*/
+
 }
 
 .sub-nav {
-    color: white;
-    font-size: 14px;
-    text-transform: uppercase;
-  font-weight: 600;
-    cursor: pointer;
-    transition: .3s;
-    text-decoration: none;
+  color: white;
+font-size: 14px;
+text-transform: uppercase;
+font-weight: 600;
+cursor: pointer;
+transition: .3s;
+text-decoration: none;
+margin: 0 12px 0 12px;
 }
 
 .sub-nav:hover {
@@ -331,7 +336,7 @@ nav bar
 .a-sign-up a {
     color: white;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 13px;
     background-color: #C0212A;
     padding: 10px 20px 10px 20px;
     border-radius: 2px;
@@ -356,23 +361,24 @@ nav bar
 }
 
 .wod-container {
-
-    border-radius: 2px;
-    background: #222222;
-    /* width: 100%; */
-    /* min-width: 288px; */
-    /* z-index: 20; */
-    /* margin: 0 12px 0 12px; */
-    margin: 0 5px 0 5px;
-    max-width: 330px;
-    min-height: 420px;
+  border-radius: 2px;
+  background: #222222;
+  /* width: 100%; */
+  /* min-width: 288px; */
+  /* z-index: 20; */
+  /* margin: 0 12px 0 12px; */
+  margin: 0px 10px 0 10px;
+  /* max-width: 341px; */
+  /* min-width: 331px; */
+    min-height: 438px;
 }
 
 .threes-container {
-    width: 80%;
-    margin: auto;
-    height: 100%;
-    max-width: 1200px;
+  margin: auto;
+      height: 100%;
+      max-width: 1200px;
+      position: relative;
+      margin-top: -120px;
 
 }
 
@@ -383,7 +389,7 @@ nav bar
 }
 
 .wod-inside-containter {
-    padding: 20px 20px 0px 20px;
+  padding: 30px 30px 0px 30px;
 }
 
 .soswodify_wod_header {
@@ -392,7 +398,7 @@ nav bar
     letter-spacing: 1px;
     text-transform: uppercase;
     font-size: 15px;
-    margin-top: 12px;
+    margin-top: 20px;
 }
 
 .wod-day {
@@ -405,12 +411,14 @@ nav bar
 }
 
 .soswodify_section_title {
-    color: #FFFFFF;
-    font-size: 14px;
-    font-weight: 400;
-    letter-spacing: .5px;
-    width: 80%;
-    margin-top: 8px;
+  color: #FFFFFF;
+font-size: 13px;
+font-weight: 400;
+letter-spacing: 3px;
+width: 80%;
+margin-top: 13px;
+text-transform: uppercase;
+margin-bottom: 15px;
 }
 
 .soswodify_component_show_wrapper {}
@@ -445,7 +453,7 @@ nav bar
 
 .scheduale {
     height: 100%;
-    padding: 20px 20px;
+  padding: 30px 30px;
 }
 
 .scheduale h2 {
@@ -453,7 +461,7 @@ nav bar
     margin: 0;
     color: #FFFFFF;
     font-weight: 400;
-    letter-spacing: 1px;
+    letter-spacing: 3px;
     text-transform: uppercase;
     font-size: 14px;
     margin-bottom: 12px;
@@ -462,7 +470,7 @@ nav bar
 .scheduale h4 {
     color: #FFFFFF;
     font-size: 13px;
-    font-weight: 200;
+    font-weight: 500;
     letter-spacing: .5px;
     width: 80%;
     margin-top: 4px;
@@ -489,24 +497,40 @@ nav bar
     height: 40px;
     border-radius: 3px;
     border: none;
-    margin: 7px 0px;
+    margin: 8px 0px;
     width: 93%;
+    padding-left: 16px;
+        font-size: 13px;
 }
-
+.Gender select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  /* cursor: pointer; */
+  padding-left: 22px;
+  font-size: 13px;
+      color: rgb(167, 167, 167);
+}
 .contact {
     height: 100%;
-    padding: 20px 0px 0px 18px;
+    padding: 30px 0px 0px 30px;
+        margin-bottom: 19px;
+}
+.contact div div form p {
+    padding: 0px 0px 10px 0px !important;
+    margin: 0px !important;
 }
 
 .contact h2 {
     padding: 0;
     margin: 0;
     color: #FFFFFF;
-    font-weight: 500;
-    letter-spacing: 1px;
+    font-weight: 400;
+    letter-spacing: 2.7px;
     text-transform: uppercase;
     font-size: 14px;
     margin-bottom: 12px;
+
 }
 
 .Gender select {
@@ -559,6 +583,7 @@ nav bar
     color: #D8D8D8;
     line-height: 30px;
     text-align: -webkit-center;
+
 }
 
 .crossfit-intro h5 {
@@ -566,13 +591,13 @@ nav bar
     color: #D8D8D8;
     line-height: 30px;
     text-align: -webkit-center;
-    font-weight: 100;
+    font-weight: 300;
 }
 
 .crossfit-intro h4 {
     color: #D8D8D8;
     font-size: 24px;
-        letter-spacing: 3px;
+        letter-spacing: 5px;
     font-weight: 400;
     text-transform: uppercase;
     padding-top: 50px;
@@ -591,10 +616,12 @@ nav bar
     text-align: -webkit-center;
     font-size: 14px;
     font-weight: 100;
-    padding-top: 13px;
+    padding-top: 20px;
     color: #D8D8D8;
     width: 80%;
     margin: auto;
+    line-height: 27px;
+
 }
 
 .icon-arrows img {
@@ -615,10 +642,11 @@ nav bar
 }
 
 .pricing-info h3 {
-    font-size: 14px;
-    font-weight: 400;
-    color: #AAAAAA;
-    letter-spacing: 1px;
+  font-size: 15px;
+      font-weight: 400;
+      color: #AAAAAA;
+      letter-spacing: 1px;
+      text-transform: uppercase;
 }
 
 .pricing-info h2 {
@@ -632,7 +660,7 @@ nav bar
   font-size: 12px;
 margin: 0;
 padding-bottom: 30px;
-font-weight: 400;
+font-weight: 600;
 letter-spacing: 1px;
 font-style: italic;
 }
@@ -648,7 +676,7 @@ font-style: italic;
 
 .drop-in-info strong {
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 500;
     color: #AAAAAA;
     letter-spacing: 1px;
 }
@@ -661,11 +689,11 @@ font-style: italic;
 }
 
 .drop-in-info em {
-    font-size: 12px;
-    font-weight: 200;
-    color: #AAAAAA;
-    letter-spacing: 1px;
-    font-style: normal;
+  font-size: 12px;
+font-weight: 300;
+color: #AAAAAA;
+letter-spacing: 1px;
+font-style: normal;
 }
 
 .programs {}
@@ -673,13 +701,13 @@ font-style: italic;
 .programs h2 {
     color: #FFFFFF;
     font-size: 24px;
-    letter-spacing: 3px;
+    letter-spacing: 5px;
     font-weight: 400;
     text-transform: uppercase;
 }
 
 .programs h4 {
-    font-size: 14px;
+    font-size: 15px;
     color: #AAAAAA;
     line-height: 30px;
       font-weight: 400;
@@ -698,10 +726,12 @@ font-style: italic;
   font-size: 13px;
   font-weight: 500;
 }
-
+.barbell-icon div div p img{
+    padding-top: 11px;
+}
 .programs-container h5 {
   color: #AAAAAA;
-font-size: 12px;
+font-size: 13px;
 line-height: 27px;
 letter-spacing: .5px;
 width: 80%;
@@ -729,7 +759,7 @@ font-weight: 400;
     font-weight: 400;
     letter-spacing: 1px;
     text-transform: uppercase;
-    font-size: 16px;
+        font-size: 12px;
 }
 
 .map h4 {
@@ -737,7 +767,7 @@ font-weight: 400;
     font-weight: 400;
     letter-spacing: 1px;
     text-transform: uppercase;
-    font-size: 15px;
+    font-size: 12px;
 }
 
 .map h5 {
@@ -760,7 +790,7 @@ font-weight: 400;
 .coach-title h2 {
     color: #FFFFFF;
     font-size: 24px;
-    letter-spacing: 3px;
+    letter-spacing: 5px;
     font-weight: 400;
     text-transform: uppercase;
 }
@@ -784,12 +814,15 @@ font-weight: 400;
     font-weight: 400;
     letter-spacing: 1px;
     text-transform: uppercase;
-    font-size: 16px;
+    font-size: 15px;
+letter-spacing: 2.3px;
+margin-top: 30px;
 }
 
 .coaches p {
     margin: auto;
     width: 80%;
+        text-align: -webkit-center;
 }
 
 .coaches span {
@@ -799,7 +832,7 @@ font-weight: 400;
     letter-spacing: .5px;
     text-align: center;
     margin: auto;
-    line-height: 25px;
+    line-height: 28px;
 }
 
 
@@ -851,7 +884,7 @@ height: auto;
 .social-icons {}
 
 .icon-facebook {
-    margin: 0 12px 0 0px;
+    margin: 0 16px 0 0px;
 }
 
 .hidden {
@@ -869,16 +902,19 @@ height: auto;
 }
 
 .wodify-signIn a {
-    display: flex;
-    margin-left: 9px;
-    color: #CF3233;
-    text-decoration: none;
-    font-size: 13px;
-    display: flex;
+  display: flex;
+  margin-left: 9px;
+  color: #CF3233;
+  text-decoration: none;
+  font-size: 11px;
+  display: flex;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }
 
 .wodify-signIn img {
-    margin: 12px !important;
+        margin: 4px 10px 0px 23px !important;
 }
 
 .class-schedule {
@@ -898,7 +934,7 @@ height: auto;
 
     font-weight: 400;
     text-transform: uppercase;
-        letter-spacing: 3px;
+        letter-spacing: 5px;
 }
 
 .class-title h4 {
@@ -914,6 +950,8 @@ height: auto;
     border-color: inherit !important;
     text-transform: uppercase;
     text-align: center;
+    height: 50px;
+    letter-spacing: 2px;
 }
 
 .hover-col1 tr td:first-child {
@@ -934,12 +972,12 @@ height: auto;
     vertical-align: middle;
     position: relative;
     text-transform: uppercase;
-    letter-spacing: 1px;
-        font-weight: 400;
+    letter-spacing: 2px;
+  font-weight: 500;
 }
 
 .wpsm-comptable th, .wpsm-comptable td {
-    padding: 9px !important;
+    padding: 11px !important;
     box-sizing: border-box;
 }
 
@@ -949,7 +987,7 @@ height: auto;
     width: 19px;
     position: absolute;
     margin: auto;
-    right: 2px;
+    right: 4px;
     top: 4px;
     /* background-color: white; */
     background-size: 16px;
@@ -1007,10 +1045,16 @@ height: auto;
   margin: 0;
   padding: 0;
 }
+.wod-container h3{
+  color: #fff;
+  margin-left: 17px;
+  text-align: -webkit-center;
+font-weight: 500;
+}
 .mobile-wod-container h2{
   text-align: left !important;
   margin-left: 12px;
-  margin-bottom: -20px;
+      margin-bottom: -70px;
 
 }
 
@@ -1082,18 +1126,29 @@ div#n2-ss-7 .n2-style-e1257ea0db9476696a5bba707eb04f19-simple{
   text-align: center;
 }
 div#n2-ss-7 .n2-style-e1257ea0db9476696a5bba707eb04f19-simple span{
-  font-size: 13.5px;
-
-
+  font-size: 15px;
+letter-spacing: .4px;
+font-weight: 300;
+line-height: 24px;
+color: #aaaaaa;
 }
 
 
+
+
+.home-background{
+
+}
 
 .hideNonMobile{
   display: none;
 }
 .crossfit-home-info{
   margin-right: 15px;
+}
+
+div#n2-ss-6.n2-ss-load-fade.n2-ss-loaded{
+
 }
 /*------------------------------------*\
     PAGES
@@ -1176,6 +1231,45 @@ div#n2-ss-7 .n2-style-e1257ea0db9476696a5bba707eb04f19-simple span{
 }
 
 @media only screen and (max-width:1000px) {
+  .wodify-signIn a {
+    margin-left: 0px;
+  }
+
+
+  .drop-in-info strong {
+    color: #FFFFFF;
+  display: flex;
+  font-size: 12px;
+  letter-spacing: 2px;
+  line-height: 27px;
+
+  }
+
+  .crossfit-intro h4 {
+
+      padding-top: 36px;
+}
+  .dial-container{
+padding-bottom: 0px !important;
+  }
+  .mikes{
+    padding-bottom: 15px;
+    }
+  .Gender select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    /* cursor: pointer; */
+    padding-left: 15px;
+    font-size: 13px;
+    color: rgb(167, 167, 167);
+}
+  .nav-menu {
+
+          max-width: inherit;
+          margin-right: inherit;
+
+  }
   .wod-background-full{
     background-color: #181818 !important
   }
@@ -1240,7 +1334,7 @@ align-items: center;
 }
   .About{
     background-color: #222222;
-    padding-bottom: 30px;
+    padding-bottom: 35px;
   }
   .programs h4 {
     margin-bottom: -15px;
@@ -1257,38 +1351,47 @@ margin: auto;
   }
   .mobile-price{
     display: inherit;
+
   }
 
   .wpsm-show{
     background: url(./img/readmore.png) no-repeat;
-  font-size: 35px;
+  font-size: 14px !important;
   height: 70px;
-  width: 70px;
+  width: 127px;
   color: white;
   cursor: pointer;
-  background-size: 30px;
+  background-size: 32px;
   margin: auto;
   /* background-color: aliceblue; */
-  background-position-x: 20px;
+  background-position-x: 45px;
   background-position-y: 24px;
-
-
-    cursor: pointer;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 400;
+  margin-bottom: -28px;
   }
 
   .wpsm-hide{
     text-decoration: none;
-    background: url(./img/hide.png) no-repeat;
-  font-size: 35px;
-  height: 70px;
-  width: 70px;
-  color: white;
-  cursor: pointer;
-  background-size: 30px;
-  margin: auto;
-  /* background-color: aliceblue; */
-  background-position-x: 20px;
-  background-position-y: 28px;
+        background: url(./img/x.png) no-repeat;
+        font-size: 35px;
+        height: 70px;
+        width: 110px;
+        color: white;
+        cursor: pointer;
+        background-size: 30px;
+        margin: auto;
+        /* background-color: aliceblue; */
+        background-position-x: 42px;
+        background-position-y: 28px;
+        cursor: pointer;
+        font-size: 13px !important;
+        font-weight: 400;
+        letter-spacing: 2px;
+        margin-bottom: -26px;
+        padding-top: 6px;
 
 
     cursor: pointer;
@@ -1329,6 +1432,7 @@ margin-top: -18px;
   .mobile-wod-container h2{
     text-align: center !important;
     margin-left: 0px;
+    margin-bottom: -65px;
   }
   .wod-container .wpsm-comptable td:first-child {
           text-align: -webkit-right;
@@ -1361,7 +1465,7 @@ margin-top: -18px;
         font-size: 1.5em;
         margin: auto;
         text-align: -webkit-center;
-        padding-top: 40px;
+        padding-top: 15px;
         display: inherit;
   }
   .mobile-calender-container {
@@ -1454,9 +1558,13 @@ padding-top: 30px;
         margin-bottom: 0px;
     }
     .contact h2 {
-        width: 158px;
-        margin: auto;
-        text-align: center;
+      width: 100%;
+    margin: auto;
+    text-align: center;
+    line-height: 25px;
+    font-size: 18px;
+    letter-spacing: 3px;
+    padding-top: 30px;
     }
     .threes-container {
         width: 100%;
@@ -1492,6 +1600,7 @@ padding-top: 30px;
     }
     .map h4 {
         font-size: inherit;
+        text-transform: lowercase;
     }
     .crossfit-intro h4 {
         font-size: 2em;
@@ -1609,6 +1718,8 @@ padding-top: 30px;
 
 .mobile-calender-container {
     background-color: #181818;
+    width: 95%;
+    margin: auto;
 }
 
 .mobile-weekday-circle {
@@ -1622,6 +1733,8 @@ align-items: center;
 border-radius: 50%;
 cursor: pointer;
 z-index: 2000;
+font-size: 15px;
+font-weight: 500;
 }
 
 .red{

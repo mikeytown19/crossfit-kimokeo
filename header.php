@@ -47,10 +47,10 @@
 
 
 					<div class="nav-bar nav-color flex ">
-						<div class="nav-logo flex1">
+						<div class="nav-logo ">
 
 							<a class="flex jc-center" href="/">
-								<img src="<?php echo get_template_directory_uri(); ?>/img/nav-bar/Group1.png" alt="Logo">
+								<img src="<?php echo get_template_directory_uri(); ?>/img/nav-bar/header-logo.svg" alt="Logo">
 								<div class="logo-text">
 									Crossfit <br> Kimokeo
 								</div>
