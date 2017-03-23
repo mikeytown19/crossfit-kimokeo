@@ -22,12 +22,12 @@
 </div>
 		 <div class="social-icons flex">
 			 	<div class="">
-					<a href="#">
+					<a href="https://www.facebook.com/CrossFitKimokeo/">
 					<img class ="icon-facebook"src="<?php echo get_template_directory_uri(); ?>/img/icons/Icon-Facebook.svg" alt="">
 				</a>
 			 	</div>
 				<div class="">
-					<a href="#">
+					<a href="https://www.instagram.com/crossfit_kimokeo/">
 				<img class="insaImg"src="<?php echo get_template_directory_uri(); ?>/img/icons/Icon-Instagram.svg" alt="">
 					</a>
 				</div>

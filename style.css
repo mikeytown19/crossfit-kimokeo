@@ -290,6 +290,7 @@ margin-top: 5px;
 }
 
 .nav-container {
+  transition: background-color 400ms linear;
     position: fixed;
     z-index: 200;
     width: 100%;
@@ -334,13 +335,15 @@ margin: 0 12px 0 12px;
 }
 
 .a-sign-up a {
-    color: white;
+  color: white;
     text-decoration: none;
     font-size: 13px;
     background-color: #C0212A;
     padding: 10px 20px 10px 20px;
     border-radius: 2px;
     transition: .3s;
+    width: 115px !important;
+    font-weight: 500;
 }
 
 .a-sign-up a:hover {
@@ -1072,6 +1075,7 @@ font-weight: 500;
 
 .nav-color{
   background: none !important;
+  transition: background-color 500ms linear;
 }
 
 
@@ -1134,7 +1138,10 @@ color: #aaaaaa;
 }
 
 
-
+.phone{
+  text-decoration: none;
+  color: inherit;
+}
 
 .home-background{
 
@@ -1263,6 +1270,7 @@ padding-bottom: 0px !important;
     padding-left: 15px;
     font-size: 13px;
     color: rgb(167, 167, 167);
+    background-color: #fff
 }
   .nav-menu {
 
@@ -1296,15 +1304,15 @@ padding-bottom: 0px !important;
 .mobile-sign-up{
 margin-top: 50px !important;
 background-color: #222222 !important;
-
+  z-index: 1000;
     font-size: 13px !important;
 }
 .mobile-menu-items{
-  margin-top: 120px;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
 }
   .social-icons .insaImg{
@@ -1620,7 +1628,7 @@ padding-top: 30px;
 
 
 .mobile-nav-logo {
-    background: url(./img/nav-bar/group35.png) no-repeat;
+    background: url(./img/nav-bar/header-logo.svg) no-repeat;
     font-size: 35px;
     height: 50px;
     width: 123px;
@@ -1664,12 +1672,14 @@ padding-top: 30px;
 /* The navigation menu links */
 
 .sidenav a {
-        margin: 10px 0 0px 0;
+        margin: 20px 0 0px 0;
     text-decoration: none;
     font-size: 25px;
     color: white;
     display: block;
-    transition: 0.3s
+    transition: 0.3s;
+    width: 227px;
+text-align: -webkit-center;
 }
 
 
@@ -1684,10 +1694,11 @@ padding-top: 30px;
 
 .sidenav .closebtn {
   position: absolute;
-  top: 0;
-  right: 30px;
+  top: -13px;
+  right: 32px;
   font-size: 38px;
   margin-left: 50px;
+  width: initial;
 }
 
 

@@ -53,18 +53,27 @@ function mobileDate(data) {
 
         'use strict';
         // DOM ready, take it away
+        $(document).scroll(function () {
+         var $nav = $(".nav-color");
 
+         if($(this).scrollTop() > 30){
+            $('.nav-container').removeClass('nav-color');
+         }else{
+             $('.nav-container').addClass('nav-color');
+         }
+        //  $nav.toggleClass('nav-color', $(this).scrollTop() > $nav.height());
+       });
 
-        $(window).on('wheel', function(e) {
-
-          $('.nav-container').removeClass('nav-color');
-        	var delta = e.originalEvent.deltaY;
-
-        	// if (delta > 0) $('body').text('down');
-        	// else $('body').text('up');
-
-
-        });
+        // $(window).on('wheel', function(e) {
+        //
+        //   $('.nav-container').removeClass('nav-color');
+        // 	var delta = e.originalEvent.deltaY;
+        //
+        // 	// if (delta > 0) $('body').text('down');
+        // 	// else $('body').text('up');
+        //
+        //
+        // });
 
         // carousel();
         updateUI();
@@ -73,12 +82,10 @@ function mobileDate(data) {
 
         // Add smooth scrolling to all links
 $(".sub-nav").on('click', function(event) {
-
   // Make sure this.hash has a value before overriding default behavior
   if (this.hash !== "") {
     // Prevent default anchor click behavior
     event.preventDefault();
-
     // Store hash
     var hash = this.hash;
     console.log(this);
@@ -87,7 +94,6 @@ $(".sub-nav").on('click', function(event) {
     $('html, body').animate({
       scrollTop: $(hash).offset().top-100
     }, 1400, function(){
-
       // Add hash (#) to URL when done scrolling (default click behavior)
       window.location.hash = hash;
     });
@@ -124,63 +130,26 @@ function closeNav() {
 var myIndex = 0;
 
 
-// function carousel() {
-//     var i;
-//     var x = document.getElementsByClassName("mySlides");
+// window.smoothScroll = function(target) {
+//     var scrollContainer = target;
+//     do { //find scroll container
+//         scrollContainer = scrollContainer.parentNode;
+//         if (!scrollContainer) return;
+//         scrollContainer.scrollTop += 1;
+//     } while (scrollContainer.scrollTop == 0);
 //
+//     var targetY = 0;
+//     do { //find the top of target relatively to the container
+//         if (target == scrollContainer) break;
+//         targetY += target.offsetTop;
+//     } while (target = target.offsetParent);
 //
-//     for (i = 0; i < x.length; i++) {
-//
-//
-//         x[i].style.display = "none";
+//     scroll = function(c, a, b, i) {
+//         i++; if (i > 28) return;
+//         c.scrollTop = a + (b - a) / 30 * i;
+//         setTimeout(function(){ scroll(c, a, b, i); }, 17);
 //     }
-//     myIndex++;
-//     if (myIndex > x.length) {
-//         myIndex = 1
-//     }
-//     x[myIndex - 1].style.display = "block";
-//     setTimeout(carousel, 50000); // Change image every 2 seconds
+//     // start scrolling
+//     scroll(scrollContainer, scrollContainer.scrollTop, targetY, 0);
 // }
-
-// function mobileDate(){
-//   var day = new Date();
-//   var weekday = new Array(7);
-//   weekday[0] = "sunday";
-//   weekday[1] = "monday";
-//   weekday[2] = "tuesday";
-//   weekday[3] = "wednesday";
-//   weekday[4] = "thursday";
-//   weekday[5] = "friday";
-//   weekday[6] = "saturday";
-//   var currentDay = weekday[day.getDay()];
-// var x = document.getElementsByClassName("mobile-weekday-circle");
-//
-//
-// console.log(x);var clickedDate=''
-
-// }
-// mobileDate()
-
-window.smoothScroll = function(target) {
-    var scrollContainer = target;
-    do { //find scroll container
-        scrollContainer = scrollContainer.parentNode;
-        if (!scrollContainer) return;
-        scrollContainer.scrollTop += 1;
-    } while (scrollContainer.scrollTop == 0);
-
-    var targetY = 0;
-    do { //find the top of target relatively to the container
-        if (target == scrollContainer) break;
-        targetY += target.offsetTop;
-    } while (target = target.offsetParent);
-
-    scroll = function(c, a, b, i) {
-        i++; if (i > 28) return;
-        c.scrollTop = a + (b - a) / 30 * i;
-        setTimeout(function(){ scroll(c, a, b, i); }, 17);
-    }
-    // start scrolling
-    scroll(scrollContainer, scrollContainer.scrollTop, targetY, 0);
-}
 // Hide the extra content initially, using JS so that if JS is disabled, no problemo.
